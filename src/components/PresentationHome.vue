@@ -1,12 +1,16 @@
 <template>
-<div>
+<div class="presentation_container">
+  <div><img src="@/assets/img/man.png" alt="profil"></div>
   <div>
-    <h2>Mazeau Lucas</h2>
-    <h3>Développeur Web</h3>
+    <h2 class="auteur">Mazeau Lucas</h2>
+    <h3 class="stack">Développeur Web</h3>
     <ul>
-      <li><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
-      <li><img src="@/assets/icon/github.png" alt="github"></li>
+      <li class="soc_media_list"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
+      <li class="soc_media_list"><img src="@/assets/icon/github.png" alt="github"></li>
     </ul>
+    <div>
+      <router-link to="/contact"><button class="btn_contact">Contact</button></router-link>
+    </div>
   </div>
   <div>
 
@@ -22,5 +26,35 @@ export default {
 </script>
 
 <style scoped>
+
+.presentation_container{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.auteur{
+  font-size: 1.7rem;
+}
+
+.soc_media_list{
+  display: inline-block;
+}
+
+.btn_contact{
+  background-color: indianred;
+  text-align: center;
+  padding: 10px;
+  border: solid 3px #2c3e50;
+  border-radius: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  box-shadow: 5px 5px 10px rgba(44, 62, 80, 0.96);
+}
+
+
 
 </style>

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Projets",
+  name: "ProjetsViews",
   data() {
     return {
       message: 'salut'

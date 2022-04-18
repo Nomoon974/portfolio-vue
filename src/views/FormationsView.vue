@@ -1,10 +1,10 @@
 <template>
-$END$
+<h1>Formation</h1>
 </template>
 
 <script>
 export default {
-name: "FormationsView.vue"
+  name: "FormationsView.vue"
 }
 </script>
 
