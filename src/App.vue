@@ -72,7 +72,7 @@ nav a {
   width: max-content;
   text-decoration: none;
   display: inline-block;
-  padding-right: 20px;
+  padding: 0 30px 0 30px;
   transition: transform .6s;
 }
 
