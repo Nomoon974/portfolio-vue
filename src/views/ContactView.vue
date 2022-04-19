@@ -30,7 +30,7 @@
           <label for="commentary">Message</label>
         </div>
         <div>
-          <textarea name="commentary" id="message" cols="30" rows="10"></textarea>
+          <textarea name="commentary" id="message" maxlength="320" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div>
           <button class="btn_submit" type="submit">Envoyer</button>
@@ -49,14 +49,16 @@
   grid-template-areas:
       "a b";
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80vh;
 
   align-items: center;
 
-  max-height: max-content;
-
-  border: 1px solid black;
+  border: solid #2c3e50 5px;
+  border-radius: 5px;
   padding: 30px;
-}
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(2px);
+  }
 
 .contact-container{
   grid-area: a;
@@ -77,6 +79,8 @@
   max-width: max-content;
   border-radius: 20px;
   padding: 5px;
+
+  outline-color: #2c3e50;
 }
 
 textarea{
@@ -99,6 +103,7 @@ textarea{
 }
 
 .btn_submit{
+  cursor: pointer;
   background-color: indianred;
   text-align: center;
   padding: 10px;

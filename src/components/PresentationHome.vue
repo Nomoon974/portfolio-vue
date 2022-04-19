@@ -55,6 +55,7 @@ export default {
 }
 
 .btn_contact{
+  cursor: pointer;
   background-color: indianred;
   text-align: center;
   padding: 10px;

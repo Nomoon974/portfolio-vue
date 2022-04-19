@@ -65,7 +65,8 @@ body{
 }
 
 nav a.router-link-exact-active {
-  transform: scale(1.3);
+  transform: scale(1.5);
+
 }
 
 
