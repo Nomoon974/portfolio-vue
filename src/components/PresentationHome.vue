@@ -3,13 +3,14 @@
   <div><img src="@/assets/img/man.png" alt="profil"></div>
   <div>
     <h2 class="auteur">Mazeau Lucas</h2>
-    <h3 class="stack">Développeur Web</h3>
+    <h3 class="stack">Développeur Web Junior</h3>
     <ul>
       <li class="soc_media_list"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
       <li class="soc_media_list"><img src="@/assets/icon/github.png" alt="github"></li>
     </ul>
     <div>
-      <router-link to="/contact"><button class="btn_contact">Contact</button></router-link>
+      <router-link :to="{name:menuLinks.routeName}">
+        <button class="btn_contact">{{menuLinks.label}}</button></router-link>
     </div>
   </div>
   <div>
@@ -21,8 +22,17 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "PresentationHome.vue"
+  name: "PresentationHome.vue",
+  components: {
+  },
+  data:() => ({
+    menuLinks: {
+        routeName:'contact',
+        label:'Contact'
+      }
+  })
 }
+
 </script>
 
 <style scoped>
@@ -52,9 +62,7 @@ export default {
   border-radius: 2rem;
   font-weight: 600;
   color: #2c3e50;
-  box-shadow: 5px 5px 10px rgba(44, 62, 80, 0.96);
+  box-shadow: 3px 3px 10px rgba(44, 62, 80, 0.96);
 }
-
-
 
 </style>
