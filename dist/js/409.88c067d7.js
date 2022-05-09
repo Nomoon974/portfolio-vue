@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkportfolio_vue"]=self["webpackChunkportfolio_vue"]||[]).push([[409],{2409:function(e,n,t){t.r(n),t.d(n,{default:function(){return f}});var u=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("h1",[e._v("competences")])},c=[],o={name:"CompetencesView.vue"},r=o,l=t(1001),s=(0,l.Z)(r,u,c,!1,null,"77353c8e",null),f=s.exports}}]);
+//# sourceMappingURL=409.88c067d7.js.map
