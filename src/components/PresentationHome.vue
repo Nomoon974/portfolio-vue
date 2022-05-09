@@ -10,7 +10,10 @@
     </ul>
     <div>
       <router-link :to="{name:menuLinks.routeName}">
-        <button class="btn_contact">{{menuLinks.label}}</button></router-link>
+        <btn-rouge
+            @click="console.log(document.body)"
+            :name="menuLinks.label" />
+      </router-link>
     </div>
   </div>
   <div>
@@ -20,10 +23,12 @@
 </template>
 
 <script>
+import btnRouge from "@/components/BtnRouge";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "PresentationHome.vue",
   components: {
+    btnRouge,
   },
   data:() => ({
     menuLinks: {
