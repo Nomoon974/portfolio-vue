@@ -1,5 +1,10 @@
 <template>
-  <contact-compo />
+  <div class="w-screen flex flex-col justify-center">
+  <h1 class="text-9xl w-max pl-8 pb-8">Contactez-moi</h1>
+  <div class="w-full pl-8 items-stretch">
+    <contact-compo />
+  </div>
+  </div>
 </template>
 
 <script>
@@ -15,6 +20,10 @@ export default {
 </script>
 
 <style scoped>
+.text-9xl{
+  font-family: 'Pathway Gothic One',serif;
+  text-transform: uppercase;
+}
 
 
 </style>

@@ -1,6 +1,6 @@
 <template>
 <div class="presentation_container">
-  <div><img src="@/assets/img/man.png" alt="profil"></div>
+  <div><img class="w-72 border-white border-8 h-72 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
   <div>
     <h2 class="auteur">Mazeau Lucas</h2>
     <h3 class="stack">Développeur Web Junior</h3>

@@ -1,6 +1,7 @@
 <template>
 <div class="footer-contain">
 <h1>bonjour</h1>
+  <a href='https://www.freepik.com/vectors/service-center'>Service center vector created by vectorjuice - www.freepik.com</a>
 </div>
 </template>
 

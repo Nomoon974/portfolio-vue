@@ -1,7 +1,7 @@
 <template>
   <div>
-<h1>Formation</h1>
-    <div class="flex p-16">
+<h1 class="text-9xl pl-8 flex flex-start">Formation</h1>
+    <div class="flex p-8">
     <stack-div />
       </div>
   </div>
@@ -19,5 +19,9 @@ export default {
 </script>
 
 <style scoped>
+.text-9xl{
+  font-family: 'Pathway Gothic One',serif;
+  text-transform: uppercase;
+}
 
 </style>
