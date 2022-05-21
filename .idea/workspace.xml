@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
-      <change afterPath="$PROJECT_DIR$/src/assets/STACKS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/clip-education-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/css-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/html-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/illu2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/symfony.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/vue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/wordpress.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app-legacy.ce7578e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app-legacy.ce7578e9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.e581cfcc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.e581cfcc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/eslint/30077c0b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/eslint/30077c0b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +122,7 @@
       <workItem from="1653047294629" duration="1845000" />
       <workItem from="1653142026201" duration="875000" />
       <workItem from="1653142923124" duration="590000" />
-      <workItem from="1653143564367" duration="6292000" />
+      <workItem from="1653143564367" duration="7902000" />
     </task>
     <servers />
   </component>
