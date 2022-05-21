@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,7 @@
       <workItem from="1653047294629" duration="1845000" />
       <workItem from="1653142026201" duration="875000" />
       <workItem from="1653142923124" duration="590000" />
-      <workItem from="1653143564367" duration="7902000" />
+      <workItem from="1653143564367" duration="8321000" />
     </task>
     <servers />
   </component>
