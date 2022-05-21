@@ -3,11 +3,11 @@
     <div class=" ">
       <div class="overflow-auto flex w-[30vw] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
         <img class="object-center" src="@/assets/img/Hello.jpg" alt="">
-        <div class="flex justify-evenly">
+        <div class="flex justify-evenly p-2">
         Gauche <br>
         {{ projet.email }} <br>
         {{ projet.username }} <br>
-        <div><btn-rouge
+        <div class="flex justify-end items-center"><btn-rouge class="btn_red"
         name="Voir plus" /></div>
         </div>
       </div>
@@ -15,11 +15,11 @@
     <div class="">
       <div class="overflow-auto flex w-[30vw] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
         <img class="object-center" src="@/assets/img/Hello.jpg" alt="">
-        <div class="flex justify-evenly">
+        <div class="flex justify-evenly p-2">
         droite <br>
         {{ projet.email }} <br>
         {{ projet.username }} <br>
-        <div class="flex justify-items-center"><btn-rouge
+        <div class="flex justify-end items-center"><btn-rouge class="btn_red"
         name="Voir plus" /></div>
         </div>
       </div>
@@ -43,9 +43,8 @@ export default {
 </script>
 
 <style scoped>
-.grand-container{
-  display: flex;
-  width: 100vw;
+.btn_red{
+  font-size: 15px;
 }
 
 

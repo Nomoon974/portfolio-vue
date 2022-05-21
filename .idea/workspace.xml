@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
+      <change afterPath="$PROJECT_DIR$/src/assets/STACKS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/clip-education-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/css-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/html-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/illu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mysql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/php.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/symfony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/wordpress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app-legacy.ce7578e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app-legacy.ce7578e9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.e581cfcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.e581cfcc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/eslint/30077c0b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/eslint/30077c0b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +50,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,16 +79,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/Documents/Nuxtjs_projet/nuxt-app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/wordpress&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucas\IdeaProjects\portfolio-vue\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm run serve">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio-vue/docs/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -102,6 +142,21 @@
       <workItem from="1651784477569" duration="1709000" />
       <workItem from="1651821397352" duration="29866000" />
       <workItem from="1652167324221" duration="587000" />
+      <workItem from="1652167932702" duration="4569000" />
+      <workItem from="1652268688851" duration="3022000" />
+      <workItem from="1652340340287" duration="8000" />
+      <workItem from="1652340365146" duration="11408000" />
+      <workItem from="1652627430122" duration="81000" />
+      <workItem from="1652627528037" duration="5356000" />
+      <workItem from="1652685407927" duration="1738000" />
+      <workItem from="1652687186649" duration="1091000" />
+      <workItem from="1652688300098" duration="10311000" />
+      <workItem from="1652860040266" duration="1219000" />
+      <workItem from="1653047235689" duration="44000" />
+      <workItem from="1653047294629" duration="1845000" />
+      <workItem from="1653142026201" duration="875000" />
+      <workItem from="1653142923124" duration="590000" />
+      <workItem from="1653143564367" duration="6292000" />
     </task>
     <servers />
   </component>

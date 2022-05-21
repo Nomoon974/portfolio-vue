@@ -1,6 +1,6 @@
 <template>
-  <div class="w-screen">
-    <h1 class="text-9xl w-full pl-8 flex flex-start">projets</h1>
+  <div class="w-[99vw]">
+    <h1 class="text-7xl w-full pl-8 flex flex-start">projets</h1>
   <div class="pt-8">
     <grid-compo />
   </div>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
-.text-9xl{
+.text-7xl{
   font-family: 'Pathway Gothic One', serif;
   text-transform: uppercase;
 }

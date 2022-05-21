@@ -1,7 +1,7 @@
 <template>
 <nav>
   <ul>
-    <li class="nav-list" v-for="(menu, idx) in menuLinks" :key="idx">
+    <li v-for="(menu, idx) in menuLinks" :key="idx" class="nav-list hover:scale-150">
       <router-link :to="{name:menu.routeName}"><img :src=labelReplace(menu.label) :alt=menu.label></router-link>
     </li>
   </ul>
@@ -57,7 +57,6 @@ nav a {
   text-decoration: none;
   display: inline-block;
   padding: 0 30px 0 30px;
-  transition: transform .6s;
 }
 
 nav a img{
@@ -66,18 +65,19 @@ nav a img{
 
 .nav-list{
   display: inline-block;
+  transition: ease-in-out 0.5s;
 }
 
 nav a:visited{
   color: aliceblue;
+
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
 }
 
-nav a:hover {
-  transform: scale(1.3);
-}
+
+
 
 </style>
