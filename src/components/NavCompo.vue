@@ -68,14 +68,6 @@ nav a img{
   transition: ease-in-out 0.5s;
 }
 
-nav a:visited{
-  color: aliceblue;
-
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 
 
 

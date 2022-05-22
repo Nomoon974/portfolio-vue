@@ -59,6 +59,7 @@ export default {
   padding: 0;
   border: 0;
   font-size: 1.2rem;
+  transition: all 1s ease-in-out;
 }
 
 

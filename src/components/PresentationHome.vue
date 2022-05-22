@@ -130,7 +130,7 @@ export default {
     height: 350px;
   }
   .bloc_pers{
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
 
