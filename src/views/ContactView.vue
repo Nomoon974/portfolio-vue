@@ -1,6 +1,6 @@
 <template>
   <div class="w-[99vw] flex flex-col justify-center">
-  <h1 class="text-7xl w-max pl-8 pr-8 pb-8">Contactez-moi</h1>
+  <h1 class="text text-6xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">Contactez-moi</h1>
   <div class="w-full pl-4 pr-4 items-stretch">
     <contact-compo />
   </div>
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-.text-7xl{
+.text{
   font-family: 'Pathway Gothic One',serif;
   text-transform: uppercase;
 }

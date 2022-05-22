@@ -4,7 +4,7 @@
     <div class="flex p-2 flex-col">
       <div class="test flex flex-col" v-for="(stack, key) in STACKS" :key="key">
         <div class="flex over bg-white h-40 w-42 rounded-xl shadow-xl shadow-slate-300/60 mb-2 mt-2" >
-          <img class="p-5" :src="imgUrl(stack.logoPath)" alt="">
+          <img class="p-2 lg:p-5 w-20 h-20" :src="imgUrl(stack.logoPath)" alt="">
           <div class="flex flex-col w-96 text-center">
           <div class="p-5 flex align-middle h-8"><p class="align-middle min-h-full">{{ stack.stackName }}</p></div>
           <div><p> {{ level }}</p></div>

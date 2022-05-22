@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-7xl pl-8 pr-8 flex flex-start">Formation</h1>
+    <h1 class="text text-6xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">Formation</h1>
     <div>
 
     </div>
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-.text-7xl{
+.text{
   font-family: 'Pathway Gothic One',serif;
   text-transform: uppercase;
 }

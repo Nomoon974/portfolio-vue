@@ -1,7 +1,7 @@
 <template>
   <div class="w-[99vw]">
-    <h1 class="text-7xl pl-8 pr-8 flex flex-start">Compétences</h1>
-    <div class="flex p-8 justify-center">
+    <h1 class="text text-6xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">Compétences</h1>
+    <div class="flex lg:pl-8 lg:pr-8 justify-center">
       <stack-div />
     </div>
   </div>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-.text-7xl{
+.text{
   font-family: 'Pathway Gothic One',serif;
   text-transform: uppercase;
 }

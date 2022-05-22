@@ -5,8 +5,8 @@
     <div class="div-gradient2 poz"></div>
     <div class="div-gradient3 poz"></div>
     <div class="div-gradient4 poz"></div>
-  <div class="div-image"><img class="w-72 border-blue-900 border-8 h-72 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
-  <div>
+  <div class="div-image"><img class="w-52 lg:w-72 border-blue-900 border-8 h-52 lg:h-72 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+  <div class="bloc_pers">
     <h2 class="auteur">Mazeau Lucas</h2>
     <h3 class="stack">Développeur Web Junior</h3>
     <ul>
@@ -53,10 +53,16 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+}
 
+.bloc_pers{
+  margin-top: 200px;
 }
 
 .div-gradient {
+  position: absolute;
+  top: 10px;
   width: 500px;
   height: 500px;
   background-size: cover;
@@ -66,7 +72,7 @@ export default {
 
 .div-gradient1{
   position: absolute;
-  top:120px;
+  top: 10px;
   width: 500px;
   height: 500px;
   background-size: cover;
@@ -78,7 +84,7 @@ export default {
   position: absolute;
   width: 500px;
   height: 500px;
-  top:120px;
+  top: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M839.5%2C611.5Q807%2C723%2C715.5%2C802Q624%2C881%2C493.5%2C901Q363%2C921%2C237.5%2C851.5Q112%2C782%2C118%2C641Q124%2C500%2C158%2C388Q192%2C276%2C291%2C218.5Q390%2C161%2C519.5%2C101Q649%2C41%2C720.5%2C164Q792%2C287%2C832%2C393.5Q872%2C500%2C839.5%2C611.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22%237178f2%22 d=%22M839.5%2C611.5Q807%2C723%2C715.5%2C802Q624%2C881%2C493.5%2C901Q363%2C921%2C237.5%2C851.5Q112%2C782%2C118%2C641Q124%2C500%2C158%2C388Q192%2C276%2C291%2C218.5Q390%2C161%2C519.5%2C101Q649%2C41%2C720.5%2C164Q792%2C287%2C832%2C393.5Q872%2C500%2C839.5%2C611.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
@@ -86,7 +92,7 @@ export default {
 
 .div-gradient3{
   position: absolute;
-  top:120px;
+  top: 10px;
   width: 500px;
   height: 500px;
   background-size: cover;
@@ -96,7 +102,7 @@ export default {
 
 .div-gradient4{
   position: absolute;
-  top:120px;
+  top: 10px;
   width: 500px;
   height: 500px;
   background-size: cover;
@@ -107,7 +113,7 @@ export default {
 
 .div-image{
   position: absolute;
-  top:200px;
+  top:50px;
 }
 
 .auteur{
@@ -116,6 +122,16 @@ export default {
 
 .soc_media_list{
   display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .poz{
+    width: 350px;
+    height: 350px;
+  }
+  .bloc_pers{
+    margin-top: 200px;
+  }
 }
 
 
