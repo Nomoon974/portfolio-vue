@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full">
-    <h1 class="text-7xl pl-8 flex flex-start">Compétences</h1>
+  <div class="w-[99vw]">
+    <h1 class="text-7xl pl-8 pr-8 flex flex-start">Compétences</h1>
     <div class="flex p-8 justify-center">
       <stack-div />
     </div>

@@ -56,7 +56,7 @@ nav a {
   width: 100%;
   text-decoration: none;
   display: inline-block;
-  padding: 0 30px 0 30px;
+  padding: 0 25px 0 25px;
 }
 
 nav a img{

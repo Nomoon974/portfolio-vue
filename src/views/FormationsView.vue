@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-7xl pl-8 flex flex-start">Formation</h1>
+    <h1 class="text-7xl pl-8 pr-8 flex flex-start">Formation</h1>
     <div>
 
     </div>

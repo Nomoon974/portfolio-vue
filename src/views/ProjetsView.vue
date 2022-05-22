@@ -1,6 +1,6 @@
 <template>
   <div class="w-[99vw]">
-    <h1 class="text-7xl w-full pl-8 flex flex-start">projets</h1>
+    <h1 class="text-7xl w-full pl-8 pr-8 flex flex-start">projets</h1>
   <div class="pt-8">
     <grid-compo />
   </div>

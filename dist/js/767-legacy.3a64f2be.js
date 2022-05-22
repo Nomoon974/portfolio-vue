@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkportfolio_vue"]=self["webpackChunkportfolio_vue"]||[]).push([[767],{3767:function(e,t,n){n.r(t),n.d(t,{default:function(){return i}});var r=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},l=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[n("h1",{staticClass:"text-7xl pl-8 flex flex-start"},[e._v("Formation")]),n("div")])}],o={name:"FormationsView",components:{}},a=o,s=n(1001),u=(0,s.Z)(a,r,l,!1,null,"e3a13f4a",null),i=u.exports}}]);
-//# sourceMappingURL=767-legacy.3a64f2be.js.map
