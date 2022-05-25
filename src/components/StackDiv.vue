@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-10 w-full">
-    <div class="h-full flex justify-center w-full"><img class="w-[350px] h-[350px] lg:h-[500px] lg:w-[500px]" src="@/assets/img/clip-education-1.png" alt=""></div>
+    <div class="h-full flex justify-center w-full"><img class="img w-[350px] h-[350px] lg:h-[500px] lg:w-[500px]" src="@/assets/img/clip-education-1.png" alt=""></div>
     <div class="flex p-2 flex-col">
       <div id="c" class=" test flex flex-col" v-for="(stack, key) in STACKS" :key="key">
         <div class="flex over bg-white h-40 w-42 rounded-xl shadow-xl shadow-slate-300/60 mb-2 mt-2" >
@@ -53,14 +53,13 @@ export default {
           scrollTrigger: {
             trigger: a[i],
             start: "top center",
-            toggleActions: "play pause",
+            toggleActions: "play",
           },
           opacity:1,
-          ease: "power1.inOut",
+          ease: "in",
           duration: 1
         })
       }
-
     }
   }
 }

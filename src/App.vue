@@ -63,9 +63,6 @@ export default {
   font-size: 1.2rem;
 }
 
-
-
-
 .routes-vue{
   height: 100%;
   width: 100%;

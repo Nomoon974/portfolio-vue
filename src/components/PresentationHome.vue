@@ -28,6 +28,12 @@
 
 <script>
 import btnRouge from "@/components/BtnRouge";
+import { gsap } from "gsap";
+import { PixiPlugin } from "gsap/PixiPlugin.js";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
+import { Power0 } from "gsap";
+
+gsap.registerPlugin(PixiPlugin, MotionPathPlugin, Power0);
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "PresentationHome.vue",
@@ -39,7 +45,19 @@ export default {
         routeName:'contact',
         label:'Contact'
       }
-  })
+  }),
+  mounted(){
+    this.animBg()
+
+  },
+  methods:{
+
+    animBg(){
+      let tl = gsap.timeline({repeat: -1});
+      tl.to(".poz", 9, {rotate:"360", ease: Power0.easeNone})
+      tl.play()
+    }
+  }
 }
 
 </script>
@@ -117,7 +135,7 @@ export default {
 }
 
 .bloc_pers{
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
 .auteur{
