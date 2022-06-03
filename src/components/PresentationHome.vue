@@ -3,7 +3,7 @@
     <div class="div-gradient poz"></div>
     <div class="div-gradient1 poz"></div>
     <div class="div-gradient2 poz"></div>
-    <div class="div-gradient3 poz"></div>
+    <div class="div-gradient3 "></div>
     <div class="div-gradient4 poz"></div>
   <div class="div-image"><img class="w-52  border-blue-900 border-8 h-52  rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
   <div class="bloc_pers">
@@ -13,7 +13,7 @@
       <li class="soc_media_list"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
       <li class="soc_media_list"><img src="@/assets/icon/github.png" alt="github"></li>
     </ul>
-    <div>
+    <div id="div-btn_red">
       <router-link :to="{name:menuLinks.routeName}">
         <btn-rouge
             :name="menuLinks.label" />
@@ -48,14 +48,26 @@ export default {
   }),
   mounted(){
     this.animBg()
-
+    this.cadre()
   },
   methods:{
 
     animBg(){
-      let tl = gsap.timeline({repeat: -1});
-      tl.to(".poz", 9, {rotate:"360", ease: Power0.easeNone})
+      let tl = gsap.timeline();
+      tl
+          .to("h2",  {y:-200,duration: 0.8, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to("h3",  {y:-200,duration:0.8, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to(".soc_media_list",  {y:-200,duration: 0.8, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to("#div-btn_red",  {y:-200,duration: 0.8, repeat:0, opacity:1, ease: Power0.easeNone})
+
+
       tl.play()
+    },
+    cadre() {
+      let tl2 = gsap.timeline();
+      tl2.to(".poz", 9, {rotate:"360", repeat: -1, ease: Power0.easeNone})
+
+      tl2.play()
     }
   }
 }
@@ -126,6 +138,18 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M874.5%2C631Q861%2C762%2C756%2C863.5Q651%2C965%2C519.5%2C904.5Q388%2C844%2C288.5%2C785Q189%2C726%2C124%2C613Q59%2C500%2C88.5%2C361Q118%2C222%2C258%2C204.5Q398%2C187%2C511%2C152.5Q624%2C118%2C749%2C173Q874%2C228%2C881%2C364Q888%2C500%2C874.5%2C631Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22%23797fdd%22 d=%22M874.5%2C631Q861%2C762%2C756%2C863.5Q651%2C965%2C519.5%2C904.5Q388%2C844%2C288.5%2C785Q189%2C726%2C124%2C613Q59%2C500%2C88.5%2C361Q118%2C222%2C258%2C204.5Q398%2C187%2C511%2C152.5Q624%2C118%2C749%2C173Q874%2C228%2C881%2C364Q888%2C500%2C874.5%2C631Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+
+h3,h2,.soc_media_list,#div-btn_red {
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  font-size: 2em;
+}
+h3{
+
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 

@@ -54,8 +54,9 @@ export default {
 
 <style scoped>
 .text{
-  font-family: 'Pathway Gothic One',serif;
+  font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 </style>

@@ -1,12 +1,15 @@
 <template>
+
   <div  id="app">
     <div class="navb">
     <nav-compo />
     </div>
     <div  class="routes-vue">
+
       <vue-page-transition name="fade" >
         <router-view/>
       </vue-page-transition>
+
     </div>
     <div class="appdiv-footer-compo">
     <footer-compo />
@@ -33,14 +36,14 @@ export default {
     footerCompo,
   },
   data: () => ({
-  })
+  }),
+
 }
 </script>
 
 
 
 <style>
-
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

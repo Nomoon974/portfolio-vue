@@ -52,7 +52,7 @@ export default {
         gsap.to(a[i], {
           scrollTrigger: {
             trigger: a[i],
-            start: "top center",
+            start: "0 70%",
             toggleActions: "play",
           },
           opacity:1,
