@@ -47,16 +47,34 @@
 
 <script>
 import btnRouge from "@/components/BtnRouge";
+import {gsap, Power0} from "gsap";
 
 export default {
   name: "ContactCompo.vue",
   components: {
     btnRouge,
+  },
+  mounted() {
+    this.fadeIN()
+
+  },
+  methods: {
+    fadeIN(){
+      let tl = gsap.timeline()
+
+      tl.to(".grid", {duration: 1, opacity: 1, ease: Power0.easeNone})
+
+      tl.play()
+    }
   }
 }
 </script>
 
 <style scoped>
+
+.grid{
+  opacity: 0;
+}
 
 
 

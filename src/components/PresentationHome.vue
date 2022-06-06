@@ -5,7 +5,7 @@
     <div class="div-gradient2 poz"></div>
     <div class="div-gradient3 "></div>
     <div class="div-gradient4 poz"></div>
-  <div class="div-image"><img class="w-52  border-blue-900 border-8 h-52  rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+  <div class="div-image"><img class="im w-52  border-blue-900 border-8 h-52  rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
   <div class="bloc_pers">
     <h2 class="auteur">Mazeau Lucas</h2>
     <h3 class="stack">Développeur Web Junior</h3>
@@ -55,18 +55,18 @@ export default {
     animBg(){
       let tl = gsap.timeline();
       tl
-          .to("h2",  {y:-200,duration: 0.8, repeat:0, opacity:1, ease: Power0.easeNone})
-          .to("h3",  {y:-200,duration:0.8, repeat:0, opacity:1, ease: Power0.easeNone})
-          .to(".soc_media_list",  {y:-200,duration: 0.8, repeat:0, opacity:1, ease: Power0.easeNone})
-          .to("#div-btn_red",  {y:-200,duration: 0.8, repeat:0, opacity:1, ease: Power0.easeNone})
+          //.to([".poz",".div-image",".im",".div-gradient3"], {duration:1.3, opacity:1, ease:Power0.easeNone })
+          .to("h2",  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to("h3",  {y:-200,duration:0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to(".soc_media_list",  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to("#div-btn_red",  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
 
 
       tl.play()
     },
     cadre() {
       let tl2 = gsap.timeline();
-      tl2.to(".poz", 9, {rotate:"360", repeat: -1, ease: Power0.easeNone})
-
+      tl2.to(".poz", 10, {rotate:"360", repeat: -1, ease: Power0.easeNone})
       tl2.play()
     }
   }

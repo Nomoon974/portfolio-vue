@@ -10,12 +10,26 @@
 <script>
 
 
+import {gsap, Power0} from "gsap";
 
 export default {
   name: "FormationsView",
   components: {
 
   },
+  mounted() {
+    this.slideInTitle()
+
+  },
+  methods: {
+    slideInTitle(){
+      let tl = gsap.timeline()
+
+      tl.to(".text", {x:500, duration: 0.8, opacity: 1, ease: Power0.easeNone})
+
+      tl.play()
+    }
+  }
 
 }
 </script>
@@ -25,6 +39,10 @@ export default {
   font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
+
+  position: relative;
+  left: -500px;
+  opacity: 0;
 }
 
 </style>
