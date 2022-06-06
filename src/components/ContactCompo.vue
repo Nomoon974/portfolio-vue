@@ -76,6 +76,9 @@ export default {
   opacity: 0;
 }
 
+input:focus, textarea:focus{
+  outline-color: indianred;
+}
 
 
 

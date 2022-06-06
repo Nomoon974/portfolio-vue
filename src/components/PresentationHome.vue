@@ -56,10 +56,10 @@ export default {
       let tl = gsap.timeline();
       tl
           //.to([".poz",".div-image",".im",".div-gradient3"], {duration:1.3, opacity:1, ease:Power0.easeNone })
-          .to("h2",  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
-          .to("h3",  {y:-200,duration:0.7, repeat:0, opacity:1, ease: Power0.easeNone})
-          .to(".soc_media_list",  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
-          .to("#div-btn_red",  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to(["h2","h3",".soc_media_list"],  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          //.to(,  {y:-200,duration:0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          //.to(,  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
+          .to("#div-btn_red",  {y:-200,duration: 0.6, repeat:0, opacity:1, ease: Power0.easeNone})
 
 
       tl.play()
@@ -142,7 +142,7 @@ export default {
 
 h3,h2,.soc_media_list,#div-btn_red {
   position: relative;
-  top: 200px;
+  top: 230px;
   opacity: 0;
   font-size: 2em;
 }

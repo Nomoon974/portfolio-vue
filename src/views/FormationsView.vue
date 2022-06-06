@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text text-6xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">Formation</h1>
+    <h1 class="text text-4xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">Formation</h1>
     <div>
 
     </div>
@@ -39,6 +39,7 @@ export default {
   font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: default;
 
   position: relative;
   left: -500px;
