@@ -3,7 +3,7 @@
   <ul>
     <li v-for="(menu, idx) in menuLinks" :key="idx" class="pl-2 pr-2 lg:pl-6 lg:pr-6 nav-list ">
       <router-link class="navLink" :to="{name:menu.routeName}">
-        <font-awesome-icon :icon=menu.home />
+        <font-awesome-icon :icon=menu.home size="xl"/>
       </router-link>
     </li>
   </ul>
@@ -68,7 +68,7 @@ nav a img{
   width: 35px;
 }
 
-router-link:active .router-link-exact-active{
+.navLink.router-link-exact-active.router-link-active{
   background-color: indianred;
   transform: translate(-7px, -7px);
   border-radius: 3px;
@@ -81,13 +81,13 @@ router-link:active .router-link-exact-active{
 
 .navLink{
   background-color: rgba(44, 62, 80, 0);
-  box-shadow: black;
   transition: ease-in-out 500ms;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #2c3e50;
+  padding: 5px;
 }
 
-.navLink:hover{
+.navLink:hover {
   background-color: indianred;
   transform: translate(-7px, -7px);
 }

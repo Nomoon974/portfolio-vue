@@ -24,7 +24,7 @@ export default {
     slideInTitle(){
       let tl = gsap.timeline()
 
-      tl.to(".text", {x:500, duration: 0.8, opacity: 1, ease: Power0.easeNone})
+      tl.to(".text", {x:200, duration: 0.8, opacity: 1, ease: Power0.easeNone})
 
       tl.play()
     }
@@ -41,7 +41,7 @@ export default {
   cursor: default;
 
   position: relative;
-  left: -500px;
+  left: -200px;
   opacity: 0;
 }
 
