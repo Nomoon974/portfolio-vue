@@ -1,18 +1,20 @@
 <template>
 <div class="presentation_container">
+  <div class="bloc-du-haut">
     <div class="div-gradient poz"></div>
     <div class="div-gradient1 poz"></div>
     <div class="div-gradient2 poz"></div>
     <div class="div-gradient3 "></div>
     <div class="div-gradient4 poz"></div>
   <div class="div-image"><img class="im w-40 h-40 lg:w-52 lg:h-52 border-blue-900 border-8   rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
-  <div class="bloc_pers">
-    <h2 class="auteur">Mazeau Lucas</h2>
-    <h3 class="stack">Développeur Web Junior</h3>
-    <ul>
-      <li class="soc_media_list"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
-      <li class="soc_media_list"><img src="@/assets/icon/github.png" alt="github"></li>
-    </ul>
+  </div>
+    <div class="bloc_pers">
+      <h2 class="auteur">Mazeau Lucas</h2>
+      <h3 class="stack">Développeur Web Junior</h3>
+      <ul>
+        <li class="soc_media_list din"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
+        <li class="soc_media_list hub"><img src="@/assets/icon/github.png" alt="github"></li>
+      </ul>
     <div id="div-btn_red">
       <router-link :to="{name:menuLinks.routeName}">
         <btn-rouge
@@ -77,20 +79,28 @@ export default {
 <style scoped>
 
 .presentation_container{
-  height: 80vh;
-  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.bloc_pers{
+.bloc-du-haut{
   position: absolute;
-  top: 800px;
-  left: 730px;
-  font-size: 2em;
+  bottom: 1200px;
+  right: 2100px;
+}
 
+.bloc_pers{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  right: 500px;
+  font-size: 2em;
+  width: 800px;
+  height: max-content;
 }
 
 .div-gradient {
@@ -148,13 +158,44 @@ export default {
   background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M874.5%2C631Q861%2C762%2C756%2C863.5Q651%2C965%2C519.5%2C904.5Q388%2C844%2C288.5%2C785Q189%2C726%2C124%2C613Q59%2C500%2C88.5%2C361Q118%2C222%2C258%2C204.5Q398%2C187%2C511%2C152.5Q624%2C118%2C749%2C173Q874%2C228%2C881%2C364Q888%2C500%2C874.5%2C631Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22%23797fdd%22 d=%22M874.5%2C631Q861%2C762%2C756%2C863.5Q651%2C965%2C519.5%2C904.5Q388%2C844%2C288.5%2C785Q189%2C726%2C124%2C613Q59%2C500%2C88.5%2C361Q118%2C222%2C258%2C204.5Q398%2C187%2C511%2C152.5Q624%2C118%2C749%2C173Q874%2C228%2C881%2C364Q888%2C500%2C874.5%2C631Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
 }
 
-h3,h2,.soc_media_list,#div-btn_red {
+h2 {
+  opacity: 0;
+  top: 80px;
+  position: absolute;
+  left: 500px ;
+  width: inherit;
+}
+
+#div-btn_red{
+  position: absolute;
+  top: 200px;
+  left: 830px;
   opacity: 0;
 }
+
+.din{
+  position: absolute;
+  left: 900px;
+  top: 140px;
+  z-index: 100;
+  width: 50px;
+  opacity: 0;
+}
+.hub{
+  position: absolute;
+  left: 850px;
+  top: 140px;
+  width: 50px;
+  opacity: 0;
+}
+
 
 h3{
   font-weight: 600;
   text-transform: uppercase;
+  position: absolute;
+  left: 500px;
+  width: inherit;
 }
 
 
@@ -162,6 +203,8 @@ h3{
   position: absolute;
   top: 170px;
   left: 920px;
+  z-index: 100;
+  width: max-content;
 }
 
 
@@ -183,7 +226,7 @@ h3{
   .bloc_pers{
     margin-top: 300px;
     top: 300px;
-    left: 5px;
+    right: 500px;
   }
   .div-image{
     position: absolute;

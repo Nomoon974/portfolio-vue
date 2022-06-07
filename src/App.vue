@@ -74,6 +74,7 @@ export default {
   justify-content: center;
   padding: 2em 0 2em 0;
   flex-grow: 1;
+  position: relative;
 }
 
 body{
