@@ -81,15 +81,20 @@ export default {
 .presentation_container{
   height: 100vh;
   display: flex;
+  align-self: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  max-width: 70vw;
+  min-width: 70vw;
+
 }
 
 .bloc-du-haut{
   position: absolute;
   bottom: 1200px;
   right: 2100px;
+
 }
 
 .bloc_pers{
@@ -97,9 +102,8 @@ export default {
   justify-content: center;
   position: relative;
   top: 100px;
-  right: 500px;
   font-size: 2em;
-  width: 800px;
+  min-width: 100%;
   height: max-content;
 }
 
@@ -162,28 +166,29 @@ h2 {
   opacity: 0;
   top: 80px;
   position: absolute;
-  left: 500px ;
+  left: 650px ;
   width: inherit;
 }
 
 #div-btn_red{
   position: absolute;
   top: 200px;
-  left: 830px;
+  left: 710px;
   opacity: 0;
 }
 
 .din{
   position: absolute;
-  left: 900px;
+  left: 800px;
   top: 140px;
   z-index: 100;
   width: 50px;
   opacity: 0;
 }
+
 .hub{
   position: absolute;
-  left: 850px;
+  left: 700px;
   top: 140px;
   width: 50px;
   opacity: 0;
@@ -194,7 +199,7 @@ h3{
   font-weight: 600;
   text-transform: uppercase;
   position: absolute;
-  left: 500px;
+  left: 450px;
   width: inherit;
 }
 

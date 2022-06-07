@@ -68,7 +68,7 @@ export default {
 
 .routes-vue{
   height: 100%;
-  width: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
