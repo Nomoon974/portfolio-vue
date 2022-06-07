@@ -5,7 +5,7 @@
     <div class="div-gradient2 poz"></div>
     <div class="div-gradient3 "></div>
     <div class="div-gradient4 poz"></div>
-  <div class="div-image"><img class="im w-52  border-blue-900 border-8 h-52  rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+  <div class="div-image"><img class="im w-40 h-40 lg:w-52 lg:h-52 border-blue-900 border-8   rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
   <div class="bloc_pers">
     <h2 class="auteur">Mazeau Lucas</h2>
     <h3 class="stack">Développeur Web Junior</h3>
@@ -171,9 +171,9 @@ h3{
 }
 
 @media only screen and (max-width: 1000px) {
-  .poz{
-    width: 350px;
-    height: 350px;
+  .poz, .div-gradient3{
+    width: 300px;
+    height: 300px;
   }
   .bloc_pers{
     margin-top: 300px;

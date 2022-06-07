@@ -8,31 +8,31 @@
           <div class="">
           <label class="" for="name">Nom :</label>
           </div>
-          <input class="w-[95vw] lg:w-96 h-10 p-1 rounded" type="text"/>
+          <input class="w-[95vw] lg:w-[700px] h-10 p-1 rounded" type="text"/>
         </div>
         <div class="champ">
           <div>
           <label for="surname">Prénom :</label>
           </div>
-          <input class="w-[95vw] lg:w-96 h-10 p-1 rounded" type="text"/>
+          <input class="w-[95vw] lg:w-[700px] h-10 p-1 rounded" type="text"/>
         </div>
         <div class="champ">
           <div>
           <label for="tel">Téléphone :</label>
           </div>
-          <input class="w-[95vw] lg:w-96 h-10 p-1 rounded" type="tel"/>
+          <input class="w-[95vw] lg:w-[700px] h-10 p-1 rounded" type="tel"/>
         </div>
         <div class="champ">
           <div>
           <label for="mail">E-mail :</label>
           </div>
-          <input class="w-[95vw] lg:w-96 h-10 p-1 rounded" type="email"/>
+          <input class="w-[95vw] lg:w-[700px] h-10 p-1 rounded" type="email"/>
         </div>
         <div>
           <label for="commentary">Message :</label>
         </div>
         <div>
-          <textarea class="w-[95vw] lg:w-96 p-1 rounded" name="commentary" id="message" maxlength="520" style="resize: none" cols="30" rows="10"></textarea>
+          <textarea class="w-[95vw] lg:w-[700px] p-1 rounded" name="commentary" id="message" maxlength="520" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
