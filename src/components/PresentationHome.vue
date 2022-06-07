@@ -87,6 +87,9 @@ export default {
 }
 
 .bloc_pers{
+  position: relative;
+  top: 230px;
+  font-size: 2em;
   margin-top: 200px;
 }
 
@@ -141,13 +144,10 @@ export default {
 }
 
 h3,h2,.soc_media_list,#div-btn_red {
-  position: relative;
-  top: 230px;
   opacity: 0;
-  font-size: 2em;
 }
-h3{
 
+h3{
   font-weight: 600;
   text-transform: uppercase;
 }

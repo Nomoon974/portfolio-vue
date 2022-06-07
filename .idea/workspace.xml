@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +138,7 @@
       <workItem from="1654241093592" duration="41000" />
       <workItem from="1654241184023" duration="17013000" />
       <workItem from="1654545508552" duration="5949000" />
-      <workItem from="1654587096429" duration="6343000" />
+      <workItem from="1654587096429" duration="7113000" />
     </task>
     <servers />
   </component>
