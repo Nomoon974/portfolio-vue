@@ -19,9 +19,10 @@
         droite <br>
         {{ projet.email }} <br>
         {{ projet.username }} <br>
-        <div class="flex justify-end items-center"><btn-rouge class="btn_red"
-        name="Voir plus" /></div>
+        <div class="divbtn flex justify-end items-center" ><btn-rouge class="btn_red"
+        name="Voir plus" @click.native="modal.show()" /> </div>
         </div>
+        <dialog class="modal w-500 h-500">hello</dialog>
       </div>
     </div>
   </div>
@@ -43,9 +44,13 @@ export default {
   },
   data: () => ({
     PROJETS,
+    modal: "undifined"
+
 }),
   mounted() {
     this.slideIn("#grille")
+
+
   },
   methods: {
     slideIn(grille) {
@@ -53,7 +58,7 @@ export default {
       tl.to(grille, {y: -200, duration:0.8, opacity: 1, ease: Power0.easeNone}, "<");
 
       tl.play()
-    }
+    },
   }
 }
 </script>
@@ -62,6 +67,7 @@ export default {
 .btn_red{
   font-size: 1rem;
 }
+
 
 #grille{
   opacity: 0;

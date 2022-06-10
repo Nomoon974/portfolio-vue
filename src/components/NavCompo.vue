@@ -51,9 +51,15 @@ export default {
 <style scoped>
 
 nav {
-  padding-top: 30px;
-  width: 100%;
+  padding: 30px 0 20px 0;
+  width: 100vw;
   color: black;
+  border-bottom: 1px solid #2c3e50;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  position: fixed;
+  overflow-y: hidden;
+  z-index: 100;
+  backdrop-filter: blur(7px);
 }
 
 nav a {
@@ -71,7 +77,7 @@ nav a img{
 .navLink.router-link-exact-active.router-link-active{
   background-color: indianred;
   transform: translate(-7px, -7px);
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 .nav-list{

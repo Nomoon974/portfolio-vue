@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/STACKS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/STACKS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +144,10 @@
       <workItem from="1654241093592" duration="41000" />
       <workItem from="1654241184023" duration="17013000" />
       <workItem from="1654545508552" duration="5949000" />
-      <workItem from="1654587096429" duration="18221000" />
+      <workItem from="1654587096429" duration="20559000" />
+      <workItem from="1654672330564" duration="19178000" />
+      <workItem from="1654845705995" duration="97000" />
+      <workItem from="1654845824667" duration="6474000" />
     </task>
     <servers />
   </component>
