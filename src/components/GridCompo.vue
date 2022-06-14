@@ -1,9 +1,9 @@
 <template>
   <div class="w-[99vw] grid-cols-1 lg:grid-cols-2 grid self-center justify-between ">
     <div class="w-full items-center flex flex-col ">
-      <div id="grille" class="overflow-auto flex w-[90vw] lg:w-[35vw] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
-        <img class="object-center" src="@/assets/img/Hello.jpg" alt="">
-        <div class="flex w-full flex-col lg:justify-evenly p-2">
+      <div id="grille" class="overflow-auto flex w-[72vw] lg:w-[32vw] xl:w-[32vw] flex-col bg-white lg:justify-evenly rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
+        <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class=" object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
+        <div class="flex w-full flex-col col-span-1 lg:justify-evenly p-2">
         Gauche <br>
         {{ projet.email }} <br>
         {{ projet.username }} <br>
@@ -13,9 +13,9 @@
       </div>
     </div>
     <div class="w-full flex items-center  flex-col ">
-      <div id="grille" class="overflow-auto flex w-[90vw] lg:w-[35vw] flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
-        <img class="object-center" src="@/assets/img/Hello.jpg" alt="">
-        <div class="flex w-full flex-col lg:justify-evenly p-2">
+      <div id="grille" class="overflow-auto flex w-[72vw] lg:w-[32vw] xl:w-[32vw] flex-col lg:justify-evenly bg-white rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
+        <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class="object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
+        <div class="flex w-full flex-col col-span-1 lg:justify-evenly p-2">
         droite <br>
         {{ projet.email }} <br>
         {{ projet.username }} <br>

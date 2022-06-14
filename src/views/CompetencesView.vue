@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .text{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Unica One', cursive;
   text-transform: uppercase;
   font-weight: 600;
   cursor: default;

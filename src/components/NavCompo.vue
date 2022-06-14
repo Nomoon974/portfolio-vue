@@ -80,6 +80,8 @@ nav a img{
   border-radius: 7px;
 }
 
+
+
 .nav-list{
   display: inline-block;
   transition: ease-in-out 0.5s;
@@ -92,6 +94,7 @@ nav a img{
   color: #2c3e50;
   padding: 5px;
 }
+
 
 .navLink:hover {
   background-color: indianred;

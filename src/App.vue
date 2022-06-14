@@ -37,6 +37,9 @@ export default {
     footerCompo,
 
   },
+
+
+
   data: () => ({
     modal: undefined
   }),
@@ -62,6 +65,9 @@ export default {
   color: #2c3e60;
   margin: 0;
 
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+
   min-height: 100vh;
   width: 100%;
 
@@ -69,6 +75,25 @@ export default {
   align-items: center;
   flex-direction: column;
 }
+
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c3e50;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #233a50;
+  border: 1px solid #8191ac;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #202d3a;
+}
+
 .navb{
   display: flex;
   align-self: start;

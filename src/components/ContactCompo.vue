@@ -80,6 +80,10 @@ input:focus, textarea:focus{
   outline-color: indianred;
 }
 
+label{
+  font-size: 1.5rem;
+}
+
 
 
 </style>

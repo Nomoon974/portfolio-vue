@@ -19,13 +19,15 @@ export default {
   cursor: pointer;
   background-color: indianred;
   text-align: center;
-  padding: 10px;
+  text-transform: uppercase;
+  padding: 15px;
   border: solid 3px #2c3e50;
   border-radius: 2rem;
   font-weight: 600;
   color: #2c3e50;
   box-shadow: 3px 3px 10px rgba(44, 62, 80, 0.96);
   transition: ease-in-out 500ms;
+  font-size: 1rem;
 }
 
 .btn_submit:hover {

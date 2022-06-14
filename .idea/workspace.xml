@@ -2,14 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
+      <change afterPath="$PROJECT_DIR$/docs/css/60.01b38548.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/741.01c64c98.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/785.b3dabd3d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/about.5cb4763e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/app.1856ef7a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/60-legacy.6ba225b5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/60-legacy.6ba225b5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/60.88acc19c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/60.88acc19c.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/741-legacy.e66ea180.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/741-legacy.e66ea180.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/741.54c50e3c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/741.54c50e3c.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/785-legacy.fd552646.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/785-legacy.fd552646.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/785.c95d1cf0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/785.c95d1cf0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/about-legacy.0f824ae6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/about-legacy.0f824ae6.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/about.9885c23b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/about.9885c23b.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/app-legacy.5cd10282.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/app-legacy.5cd10282.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/app.d5de8d2f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/app.d5de8d2f.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.c22e4bcf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.c22e4bcf.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/chunk-vendors.9b2470cb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/chunk-vendors.9b2470cb.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/326.67a74308.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/446.03c2cdbe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/595.307f3534.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/about.2e1c7749.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/app.cc7e6967.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/326-legacy.3b46e947.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/326-legacy.3b46e947.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/326.fd0ea585.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/326.fd0ea585.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/446-legacy.27df6872.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/446-legacy.27df6872.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/446.e1cfe481.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/446.e1cfe481.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/595-legacy.ddc392ff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/595-legacy.ddc392ff.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/595.24a00d2f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/595.24a00d2f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about-legacy.3d4c97ed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about-legacy.3d4c97ed.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about.256f0604.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about.256f0604.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app-legacy.744e92ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app-legacy.744e92ea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app.359daf40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app.359daf40.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.44afa089.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.44afa089.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.aa55223b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.aa55223b.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/STACKS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/STACKS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BtnRouge.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BtnRouge.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +98,23 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/assets/STACKS.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/BtnRouge.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/FooterCompo.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/GridCompo.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/NavCompo.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/PresentationHome.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/StackDiv.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/CompetencesView.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/ContactView.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/FormationsView.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/HomeView.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/ProjetsView.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vue.config.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,26 +126,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/wordpress&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lucas/IdeaProjects/test-laravel",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lucas\IdeaProjects\portfolio-vue\src\assets" />
@@ -147,7 +228,10 @@
       <workItem from="1654587096429" duration="20559000" />
       <workItem from="1654672330564" duration="19178000" />
       <workItem from="1654845705995" duration="97000" />
-      <workItem from="1654845824667" duration="6474000" />
+      <workItem from="1654845824667" duration="10153000" />
+      <workItem from="1655060501508" duration="8034000" />
+      <workItem from="1655105141285" duration="12167000" />
+      <workItem from="1655193556578" duration="1154000" />
     </task>
     <servers />
   </component>
