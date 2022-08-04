@@ -2,7 +2,7 @@
   <div class="grid lg:grid-cols-2 basis-0 w-full justify-center text-left">
     <div class="w-full h-full flex justify-center items-center"><img class="w-[300px] h-[300px] lg:w-[500px] lg:h-[500px]" src="@/assets/img/illu2.png" alt=""></div>
     <div class="about w-full h-full flex items-center justify-center flex-col">
-    <div class="div-form w-[95vw] lg:w-full flex flex-wrap self-center justify-center text-left pl-2 pr-2">
+    <div class="div-form w-[95vw] lg:w-full flex flex-wrap self-center justify-center text-left pl-3 pr-2">
       <form action="">
         <div class="champ ">
           <div class="">

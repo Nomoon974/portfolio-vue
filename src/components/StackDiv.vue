@@ -75,14 +75,4 @@ export default {
   opacity: 0;
 }
 
-.toto {
-  order: 2;
-}
-
-/*
-.titi{
-  order: -1;
-}
-*/
-
 </style>

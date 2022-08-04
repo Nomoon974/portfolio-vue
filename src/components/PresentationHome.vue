@@ -1,7 +1,7 @@
 <template>
 <div class="presentation_container">
   <div class="bloc-du-haut">
-    <div class="div-image"><img class="im w-40 h-40 lg:w-64 lg:h-64 border-blue-900 border-2   rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+    <div class="div-image"><img class="im w-40 h-40 lg:w-72 lg:h-72 border-blue-900 border-2 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
   </div>
   <div class="bloc_pers">
       <h2 class="auteur">Mazeau Lucas</h2>
@@ -19,7 +19,6 @@
   </div>
   <div class="text-pres">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra elit in metus sollicitudin consectetur. Suspendisse volutpat hendrerit orci sit amet lobortis. Sed at elementum risus. Curabitur mattis hendrerit nulla ut ultrices. Sed mollis enim id lorem hendrerit pulvinar. Suspendisse nec nisl id ipsum imperdiet vestibulum. Aenean erat justo, faucibus et magna nec, vulputate lobortis leo. Mauris laoreet suscipit gravida. Nulla sit amet euismod turpis.
-
       Curabitur vulputate aliquam metus vel volutpat. Duis molestie justo ac sapien sagittis, ut bibendum dolor facilisis. Donec libero tortor, scelerisque ac dolor in, rutrum ultricies enim. Duis eu urna vulputate, ultricies ligula sit amet, ullamcorper felis. Nam vestibulum felis ut neque pellentesque volutpat. Integer augue nulla, porta quis ultricies id, rutrum et odio. Pellentesque ullamcorper magna non felis tristique tempus. Integer convallis lacus erat, dictum accumsan libero iaculis ultricies. Praesent volutpat quis dui sit amet volutpat. Nunc consequat pellentesque eros non varius. Proin et mollis nisi.</p>
   </div>
 </div>
@@ -59,8 +58,6 @@ export default {
           //.to(,  {y:-200,duration:0.7, repeat:0, opacity:1, ease: Power0.easeNone})
           //.to(,  {y:-200,duration: 0.7, repeat:0, opacity:1, ease: Power0.easeNone})
           .to("#div-btn_red",  {y:-150,duration: 0.6, repeat:0, opacity:1, ease: Power0.easeNone})
-
-
       tl.play()
     },
     cadre() {
@@ -75,7 +72,6 @@ export default {
 <style scoped>
 
 .presentation_container{
-  height: 100vh;
   display: grid;
   grid-template-areas:
     "a c"
@@ -83,7 +79,9 @@ export default {
   grid-template-columns: 1fr 1.2fr;
   grid-template-rows: 30% 70%;
   width: 100%;
-  padding: 100px 150px 100px 150px;
+  min-height: 830px;
+  height: max-content;
+  padding: 50px 150px 50px 150px;
 }
 
 .bloc-du-haut{
@@ -105,17 +103,17 @@ export default {
 
   position: relative;
   top: 150px;
-
 }
 
 .text-pres{
-  padding: 120px;
+  padding: 0 40px 80px 40px;
   grid-area: c;
   font-weight: 400;
 }
 
 p{
   text-align: left;
+  font-size: 23px;
 }
 
 
@@ -157,20 +155,27 @@ p{
     "b"
     "c";
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: max-content max-content max-content;
     width: 100%;
+    height: 100%;
     padding: 25px 10px 15px 10px;
   }
+
   .text-pres{
     padding: 25px;
+    height: 100%;
   }
+
   .bloc_pers{
     position: relative;
     top: 150px;
+    height: max-content;
+  }
+
+  p {
+    font-size: 20px;
   }
 
 }
-
-
 
 </style>

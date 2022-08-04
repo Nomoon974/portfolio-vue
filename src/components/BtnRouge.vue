@@ -34,4 +34,11 @@ export default {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 700px) {
+  .btn_submit {
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+}
+
 </style>

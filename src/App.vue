@@ -4,13 +4,10 @@
     <div class="navb">
     <nav-compo />
     </div>
-    <div  class="routes-vue">
-
-
+    <div class="routes-vue">
       <vue-page-transition class="transi" name="fade" >
         <router-view/>
       </vue-page-transition>
-
     </div>
     <div class="appdiv-footer-compo">
     <footer-compo />
@@ -28,34 +25,19 @@ import { PixiPlugin } from "gsap/PixiPlugin.js";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
 gsap.registerPlugin(PixiPlugin, MotionPathPlugin);
 
-
-
 export default {
   name: 'App',
   components: {
     NavCompo,
     footerCompo,
-
   },
-
-
-
   data: () => ({
-    modal: undefined
-  }),
-  mounted() {
-    this.modal = document.querySelector(".modal")
-  },
-  methods: {
-    ouvre(modal) {
-      modal.show()
-    }
-  }
 
+  }),
+  methods: {
+  }
 }
 </script>
-
-
 
 <style>
 #app {
@@ -122,6 +104,7 @@ div.routes-vue{
 body,html{
   max-width: 100vw;
   margin: auto;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -133,16 +116,13 @@ body{
 
 .transi{
   width: 100%;
+  height: 100%;
 }
 
 .appdiv-footer-compo{
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-self: end;
 }
-
 
 
 </style>
