@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
+      <change afterPath="$PROJECT_DIR$/src/views/LayoutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/20943984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/340555.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bckgrd_gradient_blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/clip-education-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/illu2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/magicpattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/pexels-mudassir-ali-3970396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BtnRouge.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BtnRouge.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +86,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/IdeaProjects/portfolio-vue&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/IdeaProjects/sass-jihane&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -165,7 +190,13 @@
       <workItem from="1655364498008" duration="4389000" />
       <workItem from="1659203624456" duration="3917000" />
       <workItem from="1659221649336" duration="9103000" />
-      <workItem from="1659446744306" duration="3233000" />
+      <workItem from="1659446744306" duration="12264000" />
+      <workItem from="1665493157496" duration="4737000" />
+      <workItem from="1665587353972" duration="351000" />
+      <workItem from="1665681443704" duration="1480000" />
+      <workItem from="1665682966347" duration="8000" />
+      <workItem from="1666026070577" duration="12921000" />
+      <workItem from="1666050139987" duration="20198000" />
     </task>
     <servers />
   </component>

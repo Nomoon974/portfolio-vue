@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[99vw] grid-cols-1 lg:grid-cols-2 grid self-center justify-between ">
+  <div class="container-column w-[99vw] grid-cols-1 lg:grid-cols-2 grid self-center justify-between ">
     <div class="w-full items-center flex flex-col ">
       <div id="grille" class="overflow-auto  flex w-[85vw] lg:w-[32vw] xl:w-[32vw] flex-col bg-white lg:justify-evenly rounded-2xl shadow-xl shadow-slate-300/60 mb-20" v-for="(projet,id) in PROJETS" :key="id">
         <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class=" object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
@@ -63,6 +63,11 @@ export default {
 </script>
 
 <style scoped>
+
+.container-column {
+  color: #252525;
+}
+
 .btn_red{
   font-size: 1rem;
 }

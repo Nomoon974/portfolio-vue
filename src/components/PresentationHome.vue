@@ -1,7 +1,7 @@
 <template>
 <div class="presentation_container">
   <div class="bloc-du-haut">
-    <div class="div-image"><img class="im w-40 h-40 lg:w-72 lg:h-72 border-blue-900 border-2 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+    <div class="div-image"><img class="img-prof border-2 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
   </div>
   <div class="bloc_pers">
       <h2 class="auteur">Mazeau Lucas</h2>
@@ -71,17 +71,25 @@ export default {
 
 <style scoped>
 
+.img-prof {
+  border-color: burlywood;
+  width: 350px;
+  height: 350px;
+}
+
 .presentation_container{
   display: grid;
   grid-template-areas:
     "a c"
     "b c";
   grid-template-columns: 1fr 1.2fr;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: max-content max-content;
   width: 100%;
-  min-height: 830px;
-  height: max-content;
-  padding: 50px 150px 50px 150px;
+  height: 100vh;
+  padding: 20px 150px 50px 150px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .bloc-du-haut{
@@ -103,17 +111,33 @@ export default {
 
   position: relative;
   top: 150px;
+  margin-top: 30px;
+}
+
+.bloc_pers ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bloc_pers > h2,h3 {
+  font-size: 2.5rem;
+}
+
+.bloc_pers img {
+  width: 45px;
 }
 
 .text-pres{
-  padding: 0 40px 80px 40px;
+  padding: 40px 40px 40px 40px;
   grid-area: c;
   font-weight: 400;
+  width: 100%;
+  max-width: 1010px;
 }
 
 p{
-  text-align: left;
-  font-size: 23px;
+  text-align: justify;
+  font-size: 25px;
 }
 
 
@@ -121,7 +145,7 @@ p{
   opacity: 0;
 }
 
-.hub, .din{
+.hub, .din {
   margin: 0 5px 0 5px;
 }
 
@@ -147,6 +171,17 @@ p{
   display: inline-block;
 }
 
+@media only screen and (min-width: 2000px){
+  .text-pres p {
+    font-size: xx-large;
+  }
+
+  .img-prof {
+    width: 400px;
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .presentation_container{
     display: grid;
@@ -159,6 +194,7 @@ p{
     width: 100%;
     height: 100%;
     padding: 25px 10px 15px 10px;
+    margin-top: 100px;
   }
 
   .text-pres{
@@ -170,10 +206,19 @@ p{
     position: relative;
     top: 150px;
     height: max-content;
+    margin-top: 30px;
+  }
+
+  .bloc_pers ul {
+    margin-top: 20px;
   }
 
   p {
     font-size: 20px;
+  }
+
+  #div-btn_red {
+    margin-top: 15px;
   }
 
 }

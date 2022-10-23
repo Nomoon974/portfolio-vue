@@ -1,6 +1,6 @@
 <template>
   <div class="w-[99vw]">
-    <h1 class="text text-4xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">projets</h1>
+    <h1 id="projets" class="text text-4xl lg:text-7xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">projets</h1>
   <div class="pt-8">
     <grid-compo />
   </div>

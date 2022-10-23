@@ -17,15 +17,14 @@ export default {
 
 .btn_submit{
   cursor: pointer;
-  background-color: indianred;
+  background-color: burlywood;
   text-align: center;
   text-transform: uppercase;
   padding: 15px;
-  border: solid 3px #2c3e50;
   border-radius: 2rem;
   font-weight: 600;
-  color: #2c3e50;
-  box-shadow: 3px 3px 10px rgba(44, 62, 80, 0.96);
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.84);
   transition: ease-in-out 500ms;
   font-size: 1rem;
 }
