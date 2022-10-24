@@ -2,32 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
-      <change afterPath="$PROJECT_DIR$/src/views/LayoutView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icon/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icon/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/20943984.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/340555.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bckgrd_gradient_blue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/clip-education-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/illu2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/magicpattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/pexels-mudassir-ali-3970396.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BtnRouge.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BtnRouge.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/app.2924aa9f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/contact.a72bc876.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/github.10599d5d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/linkedin.eeca59e4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/skills.f4804b09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/213.a7051602.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/354.446b230c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/785.b3dabd3d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/about.73b61bef.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/app.0eb98b60.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/clip-education-1.a38652b0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/illu2.d740bc30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/magicpattern.92a9d11d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/man.72973554.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/213-legacy.6f240e69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/213-legacy.6f240e69.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/213.fcb4bee1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/213.fcb4bee1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/354-legacy.1ebe13cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/354-legacy.1ebe13cd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/354.afb008f5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/354.afb008f5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/785-legacy.fd552646.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/785-legacy.fd552646.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/785.c95d1cf0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/785.c95d1cf0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about-legacy.d46f3a5b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about-legacy.d46f3a5b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about.b46ad204.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/about.b46ad204.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app-legacy.32cbb6cc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app-legacy.32cbb6cc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app.872a6a52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/app.872a6a52.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.c22e4bcf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.c22e4bcf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.9b2470cb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.9b2470cb.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +118,18 @@
       <recent name="C:\Users\lucas\IdeaProjects\portfolio-vue\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm run serve">
+  <component name="RunManager" selected="npm.build">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio-vue/docs/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm run serve" type="js.build_tools.npm">
@@ -121,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -196,7 +220,7 @@
       <workItem from="1665681443704" duration="1480000" />
       <workItem from="1665682966347" duration="8000" />
       <workItem from="1666026070577" duration="12921000" />
-      <workItem from="1666050139987" duration="20198000" />
+      <workItem from="1666050139987" duration="20643000" />
     </task>
     <servers />
   </component>
