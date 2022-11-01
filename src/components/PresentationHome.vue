@@ -1,7 +1,7 @@
 <template>
 <div class="presentation_container">
   <div class="bloc-du-haut">
-    <div class="div-image"><img class="img-prof border-2 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+    <div class="div-image"><img class="img-prof border-2 rounded-full" :src="require(`@/assets/img/profil.jpg`)" alt="profil"></div>
   </div>
   <div class="bloc_pers">
       <h2 class="auteur">Mazeau Lucas</h2>
@@ -11,15 +11,15 @@
         <li class="soc_media_list hub"><img src="@/assets/icon/github.png" alt="github"></li>
       </ul>
     <div id="div-btn_red">
-      <router-link :to="{name:menuLinks.routeName}">
+      <router-link :to="{hash:menuLinks.hash}">
         <btn-rouge
-            :name="menuLinks.label" />
+            :name="menuLinks.label"
+        />
       </router-link>
     </div>
   </div>
   <div class="text-pres">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra elit in metus sollicitudin consectetur. Suspendisse volutpat hendrerit orci sit amet lobortis. Sed at elementum risus. Curabitur mattis hendrerit nulla ut ultrices. Sed mollis enim id lorem hendrerit pulvinar. Suspendisse nec nisl id ipsum imperdiet vestibulum. Aenean erat justo, faucibus et magna nec, vulputate lobortis leo. Mauris laoreet suscipit gravida. Nulla sit amet euismod turpis.
-      Curabitur vulputate aliquam metus vel volutpat. Duis molestie justo ac sapien sagittis, ut bibendum dolor facilisis. Donec libero tortor, scelerisque ac dolor in, rutrum ultricies enim. Duis eu urna vulputate, ultricies ligula sit amet, ullamcorper felis. Nam vestibulum felis ut neque pellentesque volutpat. Integer augue nulla, porta quis ultricies id, rutrum et odio. Pellentesque ullamcorper magna non felis tristique tempus. Integer convallis lacus erat, dictum accumsan libero iaculis ultricies. Praesent volutpat quis dui sit amet volutpat. Nunc consequat pellentesque eros non varius. Proin et mollis nisi.</p>
+    <p>"Début 2020, j’entame ma reconversion professionnelle et je me lance dans une formation de développeur web le métier que j’’embitionne de faire depuis ma scolarité. Expérience réussi et le diplôme en poche je souhaite mettre à disposition mes nouvelles compétences au sein de ma futur équipe."</p>
   </div>
 </div>
 </template>
@@ -41,7 +41,8 @@ export default {
   data:() => ({
     menuLinks: {
         routeName:'contact',
-        label:'Contact'
+        label:'Contact',
+        hash:'#contact'
       }
   }),
   mounted(){
@@ -193,8 +194,13 @@ p{
     grid-template-rows: max-content max-content max-content;
     width: 100%;
     height: 100%;
-    padding: 25px 10px 15px 10px;
+    padding: 0 10px 15px 10px;
     margin-top: 100px;
+  }
+
+  .img-prof {
+    width: 250px;
+    height: 250px;
   }
 
   .text-pres{

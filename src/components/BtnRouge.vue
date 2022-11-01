@@ -27,6 +27,7 @@ export default {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.84);
   transition: ease-in-out 500ms;
   font-size: 1rem;
+  line-height: normal;
 }
 
 .btn_submit:hover {

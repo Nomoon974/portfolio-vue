@@ -39,22 +39,15 @@ const router = new VueRouter({
   mode:"history",
   routes,
   scrollBehavior(to, savePosition) {
-    const position = {};
     if (to.hash) {
-      position.selector = to.hash
-      if (to.hash === to.hash ){
-        position.offset = { y: -200}
-      }
-      if (document.querySelector(to.hash)) {
-        return {
-          selector: to.hash,
-        };
+      return {
+        selector: to.hash,
       }
     }
     if (savePosition) {
       return savePosition
     }
-    return { x:0, y:0};
+    return {x:0, y:200};
   }
 })
 
