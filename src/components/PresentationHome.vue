@@ -7,8 +7,8 @@
       <h2 class="auteur">Mazeau Lucas</h2>
       <h3 class="stack">Développeur Web Junior</h3>
       <ul>
-        <li class="soc_media_list din"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
-        <li class="soc_media_list hub"><img src="@/assets/icon/github.png" alt="github"></li>
+        <li class="soc_media_list din"><a href="https://www.linkedin.com/in/lucas-mazeau"><img src="@/assets/icon/linkedin.png" alt="linkedin"></a></li>
+        <li class="soc_media_list hub"><a href="https://github.com/Nomoon974?tab=repositories"><img src="@/assets/icon/github.png" alt="github"></a></li>
       </ul>
     <div id="div-btn_red">
       <router-link :to="{hash:menuLinks.hash}">
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="text-pres">
-    <p>"Début 2020, j’entame ma reconversion professionnelle et je me lance dans une formation de développeur web le métier que j’’embitionne de faire depuis ma scolarité. Expérience réussi et le diplôme en poche je souhaite mettre à disposition mes nouvelles compétences au sein de ma futur équipe."</p>
+    <p>"Passionné d’informatique je me lance dans une formation de développeur web le métier que j’embitionne de faire depuis la fin de ma scolarité. Formation réussi et diplôme en poche je souhaite mettre à disposition mes nouvelles compétences au sein de mon premier emploi dans le secteur."</p>
   </div>
 </div>
 </template>
@@ -76,6 +76,8 @@ export default {
   border-color: burlywood;
   width: 350px;
   height: 350px;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .presentation_container{
@@ -141,7 +143,6 @@ p{
   font-size: 25px;
 }
 
-
 #div-btn_red{
   opacity: 0;
 }
@@ -149,7 +150,6 @@ p{
 .hub, .din {
   margin: 0 5px 0 5px;
 }
-
 
 .div-image{
   display: flex;
@@ -170,6 +170,7 @@ p{
 
 .soc_media_list{
   display: inline-block;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 2000px){

@@ -31,7 +31,7 @@ export default {
 }
 
 .btn_submit:hover {
-  transform: scale(1.1);
+  transform: scale(102%);
 }
 
 @media screen and (max-width: 700px) {

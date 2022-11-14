@@ -5,11 +5,11 @@
     <div class=" flex justify-center"><img class="img w-[350px] h-[350px] lg:h-[500px] lg:w-[500px]" src="@/assets/img/clip-education-1.png" alt=""></div> -->
     <div class="stacks-card flex p-2 flex-col">
       <div id="c" class="test flex flex-col" v-for="stack in STACKS" :key="stack.id" >
-        <div class="stack-line flex over bg-white h-auto rounded-xl shadow-xl shadow-slate-300/60 mb-2 mt-2 h-max">
+        <div class="stack-line flex over bg-white h-auto rounded-xl shadow-xl mb-2 mt-2 h-max">
           <img class="p-2 w-20 h-20 lg:p-5 lg:w-40 lg:h-40" :src="imgUrl(stack.logoPath)" alt="">
           <div class="flex flex-col w-max text-center">
           <div class="pl-2 pt-4 flex align-middle h-8"><span class="font-extrabold align-middle min-h-full" >{{ stack.stackName }} | {{ starLevel(stack.level) }} </span></div>
-          <div class="hello h-auto w-auto"><p class="font-normal text-left pt-2 pb-2 pl-2 h-auto">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p></div>
+          <div class="hello h-auto w-auto"><p class="font-normal text-left pt-2 pb-2 pl-2 h-auto"> {{ stack.content }} </p></div>
           </div>
         </div>
         <img class="w-8 m-3 flex self-center " src="@/assets/icon/more.png" alt="">
@@ -83,6 +83,10 @@ export default {
 .stacks-card {
   grid-area: list;
   width: 100%;
+}
+
+.stack-line {
+  box-shadow: 10px 10px 10px black;
 }
 
 .test:last-of-type .w-8 {

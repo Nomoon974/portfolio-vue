@@ -5,7 +5,7 @@
       <router-link
           class="navLink"
           :to="{name:menu.routeName, hash:menu.hash}"       >
-        <font-awesome-icon :icon=menu.home size="xl"/>
+        <font-awesome-icon class="ico-aws" :icon=menu.icon size="xl"/>
       </router-link>
     </li>
   </ul>
@@ -23,31 +23,31 @@ export default {
       {
         routeName: 'home',
         label: 'Acceuil',
-        home: `fa-solid fa-house`,
+        icon: `fa-solid fa-house`,
         hash: '#home',
       },
       {
         routeName: 'formations',
         label: 'Formations',
-        home: 'fa-solid fa-graduation-cap',
+        icon: 'fa-solid fa-graduation-cap',
         hash:'#formations'
       },
       {
         routeName: 'competences',
         label: 'Competences',
-        home: 'fa-solid fa-bars-progress',
+        icon: 'fa-solid fa-bars-progress',
         hash: '#competences',
       },
       {
         routeName: 'projets',
         label: 'Projets',
-        home: 'fa-solid fa-rocket',
+        icon: 'fa-solid fa-rocket',
         hash: '#projets',
       },
       {
         routeName: 'contact',
         label: 'Contact',
-        home: 'fa-solid fa-address-card',
+        icon: 'fa-solid fa-address-card',
         hash: '#contact',
       }
     ],
@@ -86,8 +86,12 @@ nav a img{
 
 .navLink.router-link-exact-active.router-link-active{
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-7px, -7px);
+  transform: translate(-5px, -5px);
   border-radius: 7px;
+}
+
+.navLink.router-link-exact-active.router-link-active .ico-aws {
+  color: burlywood;
 }
 
 ul {
@@ -100,7 +104,7 @@ ul {
 .nav-list{
   display: flex;
   justify-content: space-around;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
 .navLink{
@@ -114,7 +118,7 @@ ul {
 
 .navLink:hover {
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-7px, -7px);
+  transform: translate(-3px, -3px);
 }
 
 @media only screen and (max-width: 1000px) {
