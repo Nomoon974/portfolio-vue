@@ -32,7 +32,7 @@
           <label for="commentary">Message :</label>
         </div>
         <div>
-          <textarea class="w-[95vw] lg:w-[700px] p-1 rounded" name="commentary" id="message" maxlength="520" style="resize: none" cols="30" rows="7"></textarea>
+          <textarea class="w-[95vw] lg:w-[700px] p-1 rounded" name="commentary" id="message" maxlength="520" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
