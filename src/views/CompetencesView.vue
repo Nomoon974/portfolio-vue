@@ -45,8 +45,6 @@ export default {
   position: relative;
   left: -200px;
   opacity: 0;
-
-
 }
 
 

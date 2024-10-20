@@ -16,9 +16,6 @@ export default {
     gridCompo,
   },
   data() {
-    return {
-      message: 'salut'
-    }
   },
   mounted() {
     this.slideInTitle()

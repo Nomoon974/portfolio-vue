@@ -1,18 +1,20 @@
 <template>
-  <div>
+  <div class="layout-container">
     <div class="navb">
       <nav-compo />
     </div>
-    <a href="#home"></a>
-    <HomeView id="home" class="component-layout"></HomeView>
-    <a href="#formations"></a>
-    <FormationsView id="formations" class="component-layout"></FormationsView>
-    <a href="#competences"></a>
-    <CompetencesView id="competences" class="component-layout"></CompetencesView>
-    <a href="#projets"></a>
-    <ProjetsViews id="projets" class="component-layout"></ProjetsViews>
-    <a href="#contact"></a>
-    <ContactView id="contact" class="component-layout"></ContactView>
+    <div class="view-list">
+      <a href="#home"></a>
+      <HomeView id="home" class="component-layout"></HomeView>
+      <a href="#formations"></a>
+      <FormationsView id="formations" class="component-layout"></FormationsView>
+      <a href="#competences"></a>
+      <CompetencesView id="competences" class="component-layout"></CompetencesView>
+      <a href="#projets"></a>
+      <ProjetsViews id="projets" class="component-layout"></ProjetsViews>
+      <a href="#contact"></a>
+      <ContactView id="contact" class="component-layout"></ContactView>
+    </div>
   </div>
 </template>
 
@@ -43,18 +45,41 @@ export default {
 
 <style>
 
-.component-layout {
-  min-height: 100vh;
+.layout-container {
+  display: grid;
+  grid-template-areas: "y z";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
-.component-layout:nth-child(n+2) {
-  margin-top: 5%;
+.component-layout {
+  min-height: 100vh;
 }
 
 .navb{
   display: flex;
   align-self: start;
   height: max-content;
+  grid-area: y;
+}
+
+.view-list {
+  grid-area: z;
+  width: 96vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .layout-container {
+    grid-template-areas:
+        "y"
+        "z";
+    grid-template-columns: 1fr;
+  }
+
+  .view-list {
+    width: 100vw;
+  }
+
 }
 
 </style>

@@ -1,25 +1,25 @@
 <template>
 <div class="presentation_container">
   <div class="bloc-du-haut">
-    <div class="div-image"><img class="img-prof border-2 rounded-full" :src="require(`../assets/img/profil.jpg`)" alt="profil"></div>
+    <div class="div-image"><img class="img-prof border-2 rounded-full" :src="require(`@/assets/img/profil.jpg`)" alt="profil"></div>
   </div>
   <div class="bloc_pers">
       <h2 class="auteur">Mazeau Lucas</h2>
       <h3 class="stack">Développeur Web Junior</h3>
       <ul>
-        <li class="soc_media_list din"><img src="@/assets/icon/linkedin.png" alt="linkedin"></li>
-        <li class="soc_media_list hub"><img src="@/assets/icon/github.png" alt="github"></li>
+        <li class="soc_media_list din"><a href="https://www.linkedin.com/in/lucas-mazeau"><img src="@/assets/icon/linkedin.png" alt="linkedin"></a></li>
+        <li class="soc_media_list hub"><a href="https://github.com/Nomoon974?tab=repositories"><img src="@/assets/icon/github.png" alt="github"></a></li>
       </ul>
     <div id="div-btn_red">
-      <router-link :to="{name:menuLinks.routeName}">
+      <router-link :to="{hash:menuLinks.hash}">
         <btn-rouge
-            :name="menuLinks.label" />
+            :name="menuLinks.label"
+        />
       </router-link>
     </div>
   </div>
   <div class="text-pres">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra elit in metus sollicitudin consectetur. Suspendisse volutpat hendrerit orci sit amet lobortis. Sed at elementum risus. Curabitur mattis hendrerit nulla ut ultrices. Sed mollis enim id lorem hendrerit pulvinar. Suspendisse nec nisl id ipsum imperdiet vestibulum. Aenean erat justo, faucibus et magna nec, vulputate lobortis leo. Mauris laoreet suscipit gravida. Nulla sit amet euismod turpis.
-      Curabitur vulputate aliquam metus vel volutpat. Duis molestie justo ac sapien sagittis, ut bibendum dolor facilisis. Donec libero tortor, scelerisque ac dolor in, rutrum ultricies enim. Duis eu urna vulputate, ultricies ligula sit amet, ullamcorper felis. Nam vestibulum felis ut neque pellentesque volutpat. Integer augue nulla, porta quis ultricies id, rutrum et odio. Pellentesque ullamcorper magna non felis tristique tempus. Integer convallis lacus erat, dictum accumsan libero iaculis ultricies. Praesent volutpat quis dui sit amet volutpat. Nunc consequat pellentesque eros non varius. Proin et mollis nisi.</p>
+    <p>"Passionné d’informatique je me lance dans une formation de développeur web le métier que j’embitionne de faire depuis la fin de ma scolarité. Formation réussi et diplôme en poche je souhaite mettre à disposition mes nouvelles compétences au sein de mon premier emploi dans le secteur."</p>
   </div>
 </div>
 </template>
@@ -41,7 +41,8 @@ export default {
   data:() => ({
     menuLinks: {
         routeName:'contact',
-        label:'Contact'
+        label:'Contact',
+        hash:'#contact'
       }
   }),
   mounted(){
@@ -75,6 +76,8 @@ export default {
   border-color: burlywood;
   width: 350px;
   height: 350px;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .presentation_container{
@@ -140,7 +143,6 @@ p{
   font-size: 25px;
 }
 
-
 #div-btn_red{
   opacity: 0;
 }
@@ -148,7 +150,6 @@ p{
 .hub, .din {
   margin: 0 5px 0 5px;
 }
-
 
 .div-image{
   display: flex;
@@ -169,6 +170,7 @@ p{
 
 .soc_media_list{
   display: inline-block;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 2000px){
@@ -193,8 +195,13 @@ p{
     grid-template-rows: max-content max-content max-content;
     width: 100%;
     height: 100%;
-    padding: 25px 10px 15px 10px;
+    padding: 0 10px 15px 10px;
     margin-top: 100px;
+  }
+
+  .img-prof {
+    width: 250px;
+    height: 250px;
   }
 
   .text-pres{

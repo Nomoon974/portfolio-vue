@@ -1,11 +1,11 @@
 <template>
 <nav>
   <ul>
-    <li v-for="(menu, idx) in menuLinks" :key="idx" class="pl-1 pr-2 lg:pl-6 lg:pr-6 nav-list ">
+    <li v-for="(menu, idx) in menuLinks" :key="idx" class="pl-1 nav-list ">
       <router-link
           class="navLink"
           :to="{name:menu.routeName, hash:menu.hash}"       >
-        <font-awesome-icon :icon=menu.home size="xl"/>
+        <font-awesome-icon class="ico-aws" :icon=menu.icon size="xl"/>
       </router-link>
     </li>
   </ul>
@@ -23,31 +23,31 @@ export default {
       {
         routeName: 'home',
         label: 'Acceuil',
-        home: `fa-solid fa-house`,
+        icon: `fa-solid fa-house`,
         hash: '#home',
       },
       {
         routeName: 'formations',
         label: 'Formations',
-        home: 'fa-solid fa-graduation-cap',
+        icon: 'fa-solid fa-graduation-cap',
         hash:'#formations'
       },
       {
         routeName: 'competences',
         label: 'Competences',
-        home: 'fa-solid fa-bars-progress',
+        icon: 'fa-solid fa-bars-progress',
         hash: '#competences',
       },
       {
         routeName: 'projets',
         label: 'Projets',
-        home: 'fa-solid fa-rocket',
+        icon: 'fa-solid fa-rocket',
         hash: '#projets',
       },
       {
         routeName: 'contact',
         label: 'Contact',
-        home: 'fa-solid fa-address-card',
+        icon: 'fa-solid fa-address-card',
         hash: '#contact',
       }
     ],
@@ -59,18 +59,22 @@ export default {
 
 nav {
   padding: 15px 0 10px 0;
-  width: 100vw;
+  width: 4vw;
+  height: 100vh;
   color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 30px 40px rgba(0,0,0,.1);
   position: fixed;
   overflow-y: hidden;
   z-index: 100;
   backdrop-filter: blur(7px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: solid 1px rgba(0, 0, 0, 0.3);
 }
 
 nav a {
   font-weight: bold;
-  width: 100%;
+  width: max-content;
   text-decoration: none;
   display: inline-block;
   padding: 0 10px ;
@@ -82,15 +86,25 @@ nav a img{
 
 .navLink.router-link-exact-active.router-link-active{
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-7px, -7px);
+  transform: translate(-5px, -5px);
   border-radius: 7px;
 }
 
+.navLink.router-link-exact-active.router-link-active .ico-aws {
+  color: burlywood;
+}
 
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 50%;
+}
 
 .nav-list{
-  display: inline-block;
-  transition: ease-in-out 0.5s;
+  display: flex;
+  justify-content: space-around;
+  transition: ease-in-out 0.3s;
 }
 
 .navLink{
@@ -104,7 +118,21 @@ nav a img{
 
 .navLink:hover {
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-7px, -7px);
+  transform: translate(-3px, -3px);
+}
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    width: 100vw;
+    height: max-content;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100%;
+  }
 }
 
 
