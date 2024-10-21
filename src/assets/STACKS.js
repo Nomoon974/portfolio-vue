@@ -62,6 +62,12 @@ export const STACKS = [
         level: 0,
         logoPath: "wordpress",
         content: "",
+    },{
+        id: 9,
+        stackName: "Docker",
+        level: 4,
+        logoPath: "docker",
+        content: "",
     },
 
 

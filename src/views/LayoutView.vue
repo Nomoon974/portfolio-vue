@@ -54,6 +54,7 @@ export default {
 
 .component-layout {
   min-height: 100vh;
+  margin: auto;
 }
 
 .navb{

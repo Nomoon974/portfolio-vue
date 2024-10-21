@@ -5,28 +5,237 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
-      <change afterPath="$PROJECT_DIR$/docs/css/app.0761d5bb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img/profil.2c80b3c7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/app-legacy.6e2465e5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/app-legacy.6e2465e5.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/app.fa642db1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/app.fa642db1.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.8c8a190e.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/chunk-vendors.4bc9534e.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/profil.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/app.2924aa9f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/profil.d737ab7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app-legacy.4e23444e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app-legacy.4e23444e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app.5894e63f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app.5894e63f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.a31ae517.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.8c8a190e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors-legacy.a31ae517.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.ce45ae01.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/chunk-vendors.4bc9534e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/chunk-vendors.ce45ae01.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/.bin/autoprefixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/.bin/autoprefixer.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/.bin/autoprefixer.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/bin/autoprefixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/data/prefixes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/at-rule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/autoprefixer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/autoprefixer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/brackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/browsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/declaration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/align-content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/align-items.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/align-self.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/animation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/appearance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/autofill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/backdrop-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/background-clip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/background-size.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/block-logical.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/border-image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/border-radius.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/break-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/cross-fade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/display-flex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/display-grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/file-selector-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/filter-value.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-basis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-direction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-grow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-shrink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex-wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/flex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/fullscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/gradient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-area.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-column-align.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-row-align.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-row-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-rows-columns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-template-areas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/grid-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/image-rendering.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/image-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/inline-logical.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/intrinsic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/justify-content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/mask-border.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/mask-composite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/overscroll-behavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/pixelated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/place-self.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/placeholder-shown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/print-color-adjust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/text-decoration-skip-ink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/text-decoration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/transform-decl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/user-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/hacks/writing-mode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/old-selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/old-value.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/prefixer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/prefixes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/resolution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/supports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/value.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/lib/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vue/cli-service/node_modules/autoprefixer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/bin/autoprefixer" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/bin/autoprefixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/data/prefixes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/data/prefixes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/at-rule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/at-rule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/autoprefixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/autoprefixer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/brackets.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/brackets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/browsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/browsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/declaration.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/declaration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-self.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-self.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/appearance.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/appearance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/backdrop-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/backdrop-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-clip.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-clip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-size.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/block-logical.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/block-logical.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-radius.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-radius.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/break-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/break-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/color-adjust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/cross-fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/cross-fade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-flex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-flex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-basis.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-basis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-direction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-direction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-grow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-grow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-shrink.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-shrink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/fullscreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/fullscreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/gradient.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/gradient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-area.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-area.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-column-align.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-column-align.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-end.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-end.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-align.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-align.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-column.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-column.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-rows-columns.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-rows-columns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-start.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template-areas.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template-areas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-rendering.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-rendering.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-set.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/inline-logical.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/inline-logical.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/intrinsic.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/intrinsic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/justify-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/justify-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-border.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-border.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-composite.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-composite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/overscroll-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/overscroll-behavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/pixelated.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/pixelated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/place-self.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/place-self.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder-shown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder-shown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-decoration-skip-ink.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-decoration-skip-ink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-decoration.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-decoration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/transform-decl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/transform-decl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/user-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/user-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/writing-mode.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/writing-mode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/processor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/resolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/resolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/supports.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/supports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/lib/value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/picocolors.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/picocolors.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/picocolors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/picocolors/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/at-rule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/css-syntax-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/declaration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/lazy-result.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/postcss.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/postcss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/previous-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/result.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/rule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/stringifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/terminal-highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/tokenize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/warn-once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/lib/warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/postcss/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/dist/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/array-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/source-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/source-map.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/node_modules/source-map/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/update-db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/agents.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/agents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/browserVersions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/browserVersions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features.js" afterDir="false" />
@@ -146,7 +355,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-grid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hanging-punctuation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hanging-punctuation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-has.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-has.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hyphenate.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hyphens.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hyphens.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-image-orientation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-image-orientation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-image-set.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-image-set.js" afterDir="false" />
@@ -193,7 +401,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-revert-value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-revert-value.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-rrggbbaa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-rrggbbaa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scroll-behavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scroll-behavior.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scroll-timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scroll-timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scroll-timeline.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scrollbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sel2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sel2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sel3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sel3.js" afterDir="false" />
@@ -210,7 +418,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-orientation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-orientation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-spacing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-textshadow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-textshadow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-touch-action-2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-touch-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-touch-action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-transitions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-transitions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-unicode-bidi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-unicode-bidi.js" afterDir="false" />
@@ -253,7 +460,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dom-manip-convenience.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dom-manip-convenience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dom-range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dom-range.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/domcontentloaded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/domcontentloaded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/domfocusin-domfocusout-events.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dommatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dommatrix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/download.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dragndrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dragndrop.js" afterDir="false" />
@@ -284,17 +490,14 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flexbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flexbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flow-root.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flow-root.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/focusin-focusout-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/focusin-focusout-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/focusoptions-preventscroll.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-family-system-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-family-system-ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-feature.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-feature.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-kerning.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-kerning.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-metrics-overrides.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-size-adjust.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-size-adjust.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-smooth.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-smooth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-unicode-range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-unicode-range.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-alternates.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-alternates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-east-asian.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-numeric.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-numeric.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fontface.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fontface.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/form-attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/form-attribute.js" afterDir="false" />
@@ -387,9 +590,7 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/matchmedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/matchmedia.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mathml.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mathml.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/maxlength.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/maxlength.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-attribute.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-fragments.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-fragments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-session-api.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediacapture-fromelement.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediacapture-fromelement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediarecorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediarecorder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediasource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediasource.js" afterDir="false" />
@@ -408,7 +609,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/namevalue-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/namevalue-storage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/native-filesystem-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/native-filesystem-api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/nav-timing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/nav-timing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/navigator-language.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/netinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/netinfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/notifications.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/object-entries.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/object-entries.js" afterDir="false" />
@@ -446,14 +646,11 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/portals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/portals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/prefers-color-scheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/prefers-color-scheme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/prefers-reduced-motion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/prefers-reduced-motion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/private-class-fields.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/private-methods-and-accessors.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/progress.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/promise-finally.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/promise-finally.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/promises.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/promises.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/proximity.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/proximity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/public-class-fields.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/publickeypinning.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/publickeypinning.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/push-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/push-api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/queryselector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/queryselector.js" afterDir="false" />
@@ -483,7 +680,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/server-timing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/server-timing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/serviceworkers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/serviceworkers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/setimmediate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/setimmediate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sha-2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/shadowdom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/shadowdom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/shadowdomv1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/shadowdomv1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sharedarraybuffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sharedarraybuffer.js" afterDir="false" />
@@ -520,13 +716,11 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-overflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-overflow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-size-adjust.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-size-adjust.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-stroke.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-stroke.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-underline-offset.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/textcontent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/textcontent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/textencoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/textencoder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/token-binding.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/touch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/touch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/transforms2d.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/transforms2d.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/transforms3d.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/transforms3d.js" afterDir="false" />
@@ -826,17 +1020,100 @@
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-oc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-sa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-sa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-ww.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-ww.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/feature.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/feature.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/chromium-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/chromium-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/chromium-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/chromium-versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escalade/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escalade/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escalade/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escalade/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escalade/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escalade/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escalade/sync/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escalade/sync/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/bigfraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/bigfraction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/fraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/fraction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/fraction.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/fraction.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nanoid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nanoid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nanoid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nanoid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/processed/envs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/processed/envs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/release-schedule/release-schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/release-schedule/release-schedule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picocolors/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/picocolors/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picocolors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/picocolors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picocolors/picocolors.browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/picocolors/picocolors.browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picocolors/picocolors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/picocolors/picocolors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picocolors/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/comment.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/comment.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/container.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/container.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/document.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/document.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/fromJSON.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/fromJSON.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/fromJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/fromJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/input.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/input.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/list.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/list.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/no-work-result.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/no-work-result.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/no-work-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/no-work-result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/node.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/node.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parse.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parse.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/processor.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/processor.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/result.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/result.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/root.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/root.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/rule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/rule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/stringify.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringify.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/warning.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/warning.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/warning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-consumer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/source-map.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-js/source-map.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/STACKS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/STACKS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/profil.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BtnRouge.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BtnRouge.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/LayoutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LayoutView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
@@ -884,9 +1161,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="284tll5ZCxtienYilu61BEQi6PB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -901,13 +1178,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging portable",
+    "git-widget-placeholder": "portable",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/lucas/IdeaProjects/portfolio-vue",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.npm run serve.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\lucas\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -921,7 +1202,7 @@
       <recent name="C:\Users\lucas\IdeaProjects\portfolio-vue\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.npm run serve">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio-vue/docs/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -1043,6 +1324,7 @@
       <workItem from="1667852786094" duration="10463000" />
       <workItem from="1668175721517" duration="147000" />
       <workItem from="1668175882200" duration="6736000" />
+      <workItem from="1729528189050" duration="9668000" />
     </task>
     <servers />
   </component>

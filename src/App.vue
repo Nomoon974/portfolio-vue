@@ -45,7 +45,7 @@ export default {
   color: burlywood;
   margin: 0;
 
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Sen", sans-serif;
   font-weight: 500;
 
   min-height: 100vh;

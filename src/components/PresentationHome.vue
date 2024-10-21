@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="text-pres">
-    <p>"Passionné d’informatique je me lance dans une formation de développeur web le métier que j’embitionne de faire depuis la fin de ma scolarité. Formation réussi et diplôme en poche je souhaite mettre à disposition mes nouvelles compétences au sein de mon premier emploi dans le secteur."</p>
+    <p>"Passionné d'informatique, je me lance dans une formation de développeur web, le métier que j'ambitionne de pratiquer depuis la fin de ma scolarité. Formation réussie et diplôme en poche, je souhaite mettre à disposition mes nouvelles compétences dans le cadre de mon premier emploi dans le secteur."</p>
   </div>
 </div>
 </template>

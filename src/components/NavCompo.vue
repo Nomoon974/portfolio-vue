@@ -125,6 +125,14 @@ ul {
   nav {
     width: 100vw;
     height: max-content;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* Ajustez les bordures si nécessaire */
+    border-top: solid 1px rgba(0, 0, 0, 0.3);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
   }
 
   ul {
@@ -134,6 +142,7 @@ ul {
     height: 100%;
   }
 }
+
 
 
 

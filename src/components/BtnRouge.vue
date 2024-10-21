@@ -21,7 +21,7 @@ export default {
   text-align: center;
   text-transform: uppercase;
   padding: 15px;
-  border-radius: 2rem;
+  border-radius: 8px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.95);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.84);
@@ -38,6 +38,7 @@ export default {
   .btn_submit {
     padding: 10px;
     font-size: 0.7rem;
+    width: 95vw;
   }
 }
 

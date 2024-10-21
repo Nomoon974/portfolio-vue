@@ -1,7 +1,7 @@
 <template>
-  <div class="container-column w-[99vw] grid-cols-1 lg:grid-cols-2 grid self-center justify-between ">
+  <div class="container-column w-[90vw] grid-cols-1 lg:grid-cols-2 grid self-center justify-between ">
     <div class="w-full items-center flex flex-col ">
-      <div id="grille" class="overflow-auto  flex w-[85vw] lg:w-[30vw] xl:w-[30vw] flex-col bg-white lg:justify-evenly rounded-2xl shadow-xl mb-20" v-for="(projet,id) in PROJETS" :key="id">
+      <div id="grille" class="overflow-auto  flex w-[85vw] lg:w-[30vw] xl:w-[30vw] flex-col bg-white lg:justify-evenly rounded-2xl mb-20" v-for="(projet,id) in PROJETS" :key="id">
         <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class=" object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
         <div class="flex w-full text-base flex-col col-span-1 lg:justify-evenly p-2">
         Gauche <br>
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="w-full flex items-center  flex-col ">
-      <div id="grille" class="overflow-auto flex w-[85vw] lg:w-[30vw] xl:w-[30vw] flex-col lg:justify-evenly bg-white rounded-2xl shadow-xl mb-20" v-for="(projet,id) in PROJETS" :key="id">
+      <div id="grille" class="overflow-auto flex w-[85vw] lg:w-[30vw] xl:w-[30vw] flex-col lg:justify-evenly bg-white rounded-2xl mb-20" v-for="(projet,id) in PROJETS" :key="id">
         <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class="object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
         <div class="flex w-full text-base flex-col col-span-1 lg:justify-evenly p-2">
         droite <br>
@@ -77,7 +77,6 @@ export default {
   opacity: 0;
   position: relative;
   bottom: -200px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
 }
 
 
