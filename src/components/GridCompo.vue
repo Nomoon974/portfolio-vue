@@ -1,26 +1,15 @@
 <template>
-  <div class="container-column w-[90vw] grid-cols-1 lg:grid-cols-2 grid self-center justify-between ">
-    <div class="w-full items-center flex flex-col ">
-      <div id="grille" class="overflow-auto  flex w-[85vw] lg:w-[30vw] xl:w-[30vw] flex-col bg-white lg:justify-evenly rounded-2xl mb-20" v-for="(projet,id) in PROJETS" :key="id">
-        <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class=" object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
-        <div class="flex w-full text-base flex-col col-span-1 lg:justify-evenly p-2">
-        Gauche <br>
-        {{ projet.email }} <br>
-        {{ projet.username }} <br>
-        <div class="flex justify-end items-center"><btn-rouge class=" btn_red"
-        name="Voir plus" /></div>
+  <div class="container-column w-[90vw] self-center flex flex-col col-span-2">
+    <div class="w-full items-center justify-center grid grid-cols-2">
+      <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[30vw] xl:w-[30vw] bg-white lg:justify-evenly p-3 rounded-lg mb-20"
+           v-for="(repo, id) in repos" :key="id">
+        <div class="col-span-2 h-full flex align-center w-auto rounded-2xl">
+          <img class="object-center h-max w-auto" src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub Repo">
         </div>
-      </div>
-    </div>
-    <div class="w-full flex items-center  flex-col ">
-      <div id="grille" class="overflow-auto flex w-[85vw] lg:w-[30vw] xl:w-[30vw] flex-col lg:justify-evenly bg-white rounded-2xl mb-20" v-for="(projet,id) in PROJETS" :key="id">
-        <div class="col-span-2 h-full flex align-center w-auto rounded-2xl"><img class="object-center h-max w-auto" src="@/assets/img/Hello.jpg" alt=""></div>
-        <div class="flex w-full text-base flex-col col-span-1 lg:justify-evenly p-2">
-        droite <br>
-        {{ projet.email }} <br>
-        {{ projet.username }} <br>
-        <div class="divbtn flex justify-end items-center" ><btn-rouge class=" btn_red"
-        name="Voir plus"  /> </div>
+        <div class="flex w-full text-base justify-start flex-col col-span-1 lg:justify-evenly p-2">
+          <h3 class="font-bold">{{ repo.name }}</h3>
+          <p>{{ repo.description || 'Aucune description disponible' }}</p>
+          <a :href="repo.html_url" target="_blank" class="text-blue-500 underline">Voir sur GitHub</a>
         </div>
       </div>
     </div>
@@ -29,34 +18,43 @@
 
 <script>
 import {PROJETS} from "@/assets/projectList";
-import btnRouge from "@/components/BtnRouge";
-import { gsap } from "gsap";
-import { PixiPlugin } from "gsap/PixiPlugin.js";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
-import { Power0 } from "gsap";
+// import btnRouge from "@/components/BtnRouge";
+import {gsap} from "gsap";
+import {PixiPlugin} from "gsap/PixiPlugin.js";
+import {MotionPathPlugin} from "gsap/MotionPathPlugin.js";
+import {Power0} from "gsap";
+import axios from "axios";
 
 gsap.registerPlugin(PixiPlugin, MotionPathPlugin, Power0);
 export default {
   name: "GridCompo.vue",
-  components:{
-    btnRouge
+  components: {
+    // btnRouge
   },
   data: () => ({
     PROJETS,
-    modal: "undifined"
-
-}),
+    modal: "undifined",
+    repos: []
+  }),
   mounted() {
     this.slideIn("#grille")
-
-
+    this.fetchGithub()
   },
   methods: {
     slideIn(grille) {
       let tl = gsap.timeline({repeat: 0,});
-      tl.to(grille, {y: -200, duration:0.8, opacity: 1, ease: Power0.easeNone}, "<");
+      tl.to(grille, {y: -200, duration: 0.8, opacity: 1, ease: Power0.easeNone}, "<");
 
       tl.play()
+    },
+    async fetchGithub() {
+      try {
+        const response = await axios.get("https://api.github.com/users/Nomoon974/repos");
+        console.log(response.data);
+        return this.repos = response.data;
+      } catch (error) {
+        console.error("Erreur lors de la récupération des données de GitHub", error);
+      }
     },
   }
 }
@@ -74,9 +72,8 @@ export default {
 
 
 #grille{
-  opacity: 0;
+  opacity: 1;
   position: relative;
-  bottom: -200px;
 }
 
 

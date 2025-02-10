@@ -20,13 +20,13 @@ export default {
   background-color: burlywood;
   text-align: center;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 10px;
   border-radius: 8px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.95);
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.84);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.57);
   transition: ease-in-out 500ms;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: normal;
 }
 

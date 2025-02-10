@@ -5,7 +5,7 @@
       <router-link
           class="navLink"
           :to="{name:menu.routeName, hash:menu.hash}"       >
-        <font-awesome-icon class="ico-aws" :icon=menu.icon size="xl"/>
+        <font-awesome-icon class="ico-aws" :icon=menu.icon size="l"/>
       </router-link>
     </li>
   </ul>
@@ -77,7 +77,7 @@ nav a {
   width: max-content;
   text-decoration: none;
   display: inline-block;
-  padding: 0 10px ;
+  padding: 0 8px ;
 }
 
 nav a img{
@@ -86,12 +86,11 @@ nav a img{
 
 .navLink.router-link-exact-active.router-link-active{
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-5px, -5px);
   border-radius: 7px;
 }
 
 .navLink.router-link-exact-active.router-link-active .ico-aws {
-  color: burlywood;
+  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -111,7 +110,7 @@ ul {
   background-color: rgba(44, 62, 80, 0);
   transition: ease-in-out 500ms;
   border-radius: 5px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
   padding: 5px;
 }
 

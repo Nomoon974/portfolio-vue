@@ -6,33 +6,33 @@
       <form action="">
         <div class="champ">
           <div class="">
-          <label class="" for="name">Nom :</label>
+          <label class="" for="name"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-10 p-1 rounded" name="name" type="text"/>
+          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="name" type="text" placeholder="Nom"/>
         </div>
         <div class="champ">
           <div>
-          <label for="surname">Prénom :</label>
+          <label for="surname"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-10 p-1 rounded" name="tel" type="text"/>
+          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="tel" type="text" placeholder="Prénom"/>
         </div>
         <div class="champ">
           <div>
-          <label for="tel">Téléphone :</label>
+          <label for="tel"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-10 p-1 rounded" name="tel" type="tel"/>
+          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="tel" type="tel" placeholder="Tel"/>
         </div>
         <div class="champ">
           <div>
-          <label for="mail">E-mail :</label>
+          <label for="mail"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-10 p-1 rounded" name="mail" type="email"/>
+          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="mail" type="email" placeholder="Email"/>
         </div>
         <div>
-          <label for="commentary">Message :</label>
+          <label for="commentary"></label>
         </div>
         <div>
-          <textarea class="w-full lg:w-[700px] p-1 rounded" name="commentary" id="message" maxlength="520" style="resize: none" cols="30" rows="10"></textarea>
+          <textarea class="w-full lg:w-[700px] p-1 rounded" name="commentary" id="message" placeholder="Votre message..." maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
@@ -60,9 +60,7 @@ export default {
   methods: {
     fadeIN(){
       let tl = gsap.timeline()
-
       tl.to(".grid", {duration: 1, opacity: 1, ease: Power0.easeNone})
-
       tl.play()
     }
   }
@@ -80,7 +78,7 @@ export default {
 }
 
 input:focus, textarea:focus{
-  outline-color: #893800;
+  outline-color: #eea342;
 }
 
 label{
@@ -90,8 +88,8 @@ label{
 
 .contact-img {
   border-radius: 30px;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -12,7 +12,8 @@
   </div>
 </template>
 
-<script src="vue-typed-js/dist/vue-page-transition.browser.js"></script>
+<script src="vue-typed-js/dist/vue-page-transition.browser.js">
+</script>
 <script type="text/javascript">
 import NavCompo from "@/components/NavCompo";
 import footerCompo from "@/components/FooterCompo";
@@ -45,7 +46,7 @@ export default {
   color: burlywood;
   margin: 0;
 
-  font-family: "Sen", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
 
   min-height: 100vh;
@@ -115,3 +116,6 @@ body{
 }
 
 </style>
+
+
+// https://www.freepik.com/vectors/service-center Service center vector created by vectorjuice - www.freepik.com
