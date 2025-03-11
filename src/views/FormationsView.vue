@@ -55,9 +55,9 @@ export default {
 }
 
 .training-container {
-  width: 100%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .experience-section {

@@ -49,7 +49,7 @@ export default {
   display: grid;
   grid-template-areas: "y z";
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 85%;
 }
 
 .component-layout {
@@ -66,7 +66,7 @@ export default {
 
 .view-list {
   grid-area: z;
-  width: 96vw;
+  width: 70vw;
 }
 
 @media only screen and (max-width: 1000px) {

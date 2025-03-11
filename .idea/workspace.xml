@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dabeacc9-6848-4c52-a051-795b57d6c0fb" name="Changes" comment="Rework with tailwinds 1.0">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/dot-w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/figma.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/STACKS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/STACKS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BtnRouge.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BtnRouge.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GridCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavCompo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavCompo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PresentationHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PresentationHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StackDiv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StackDiv.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CompetencesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CompetencesView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FormationsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormationsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProjetsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProjetsView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,32 +61,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;portable&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/lmazeau/marketplace-nuxt3&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm run serve.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lucas\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/lmazeau/marketplace-nuxt3",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm run serve.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\lucas\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lucas\IdeaProjects\portfolio-vue\src\assets" />

@@ -90,7 +90,7 @@ export default {
   grid-template-rows: max-content max-content;
   width: 100%;
   height: 100vh;
-  padding: 20px 150px 50px 150px;
+  padding: 20px 50px 50px 50px;
   align-items: center;
   justify-content: center;
   align-content: center;

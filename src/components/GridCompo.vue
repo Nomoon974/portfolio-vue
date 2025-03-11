@@ -1,6 +1,6 @@
 <template>
-  <div class="container-column w-[90vw] self-center flex flex-col col-span-2">
-    <div class="w-full items-center justify-center grid grid-cols-2">
+  <div class="container-column w-[70vw] self-center flex flex-col col-span-2">
+    <div class="w-full items-center ml-20 grid grid-cols-2">
       <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[30vw] xl:w-[30vw] bg-white lg:justify-evenly p-3 rounded-lg mb-20"
            v-for="(repo, id) in repos" :key="id">
         <div class="col-span-2 h-full flex align-center w-auto rounded-2xl">
