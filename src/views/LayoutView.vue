@@ -48,13 +48,14 @@ export default {
 .layout-container {
   display: grid;
   grid-template-areas: "y z";
-  grid-template-rows: 1fr;
+  grid-template-rows: max-content;
   grid-template-columns: 1fr 85%;
 }
 
 .component-layout {
-  min-height: 100vh;
+  min-height: max-content;
   margin: auto;
+  width: 75%;
 }
 
 .navb{

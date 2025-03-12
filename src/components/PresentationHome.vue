@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="text-pres">
-    <h2 id="myself" class="text text-lg lg:text-xl font-bold w-full pr-4 pb-4 text-center lg:text-left">A PROPOS DE MOI</h2>
+    <h2 id="myself" class="text text-lg lg:text-xl font-bold w-full pr-4 pb-4  lg:text-left">A PROPOS DE MOI</h2>
     <p class="">"Après une reconversion professionnelle, j'ai entamé ma première formation en développement web en 2021, où j'ai acquis des bases solides en programmation. Cependant, mon envie d'aller plus loin m'a conduit à poursuivre sur une formation de développeur full stack en alternance, où j'ai pu renforcer mes compétences et les appliquer sur des projets concrets. Aujourd'hui, je suis prêt à mettre en œuvre tout ce savoir-faire au sein d'une équipe dynamique, pour relever de nouveaux défis technologiques et continuer d'évoluer en tant que développeur."</p>
   </div>
 </div>
@@ -90,7 +90,7 @@ export default {
   grid-template-rows: max-content max-content;
   width: 100%;
   height: 100vh;
-  padding: 20px 50px 50px 50px;
+  padding: 20px 0px 0px 50px;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -133,7 +133,7 @@ export default {
 }
 
 .text-pres{
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 0 0;
   grid-area: c;
   width: 100%;
   max-width: 1010px;

@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-form" class="grid lg:grid-cols-2 basis-0 w-full justify-center text-left">
+  <div id="contact-form" class="grid lg:grid-cols-2 gap-10 basis-0 w-full justify-center text-left">
     <div class="w-full h-full flex justify-center items-center"><img class="contact-img" src="@/assets/img/contact.png" alt=""></div>
     <div class="about w-full h-full flex items-center justify-center flex-col">
     <div class="div-form w-full lg:w-full flex flex-wrap self-center justify-center text-left pl-3 pr-2">
@@ -8,31 +8,31 @@
           <div class="">
           <label class="" for="name">Nom</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="name" type="text"/>
+          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="name" type="text"/>
         </div>
         <div class="champ">
           <div>
           <label for="surname">Prenom</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="tel" type="text"/>
+          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="text"/>
         </div>
         <div class="champ">
           <div>
           <label for="tel">Telephone</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="tel" type="tel"/>
+          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="tel"/>
         </div>
         <div class="champ">
           <div>
           <label for="mail">Email</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="mail" type="email"/>
+          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="mail" type="email"/>
         </div>
         <div>
           <label for="commentary">Message</label>
         </div>
         <div>
-          <textarea class="w-full lg:w-[900px] p-1 rounded bg-transparent" name="commentary" id="message" maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
+          <textarea class="w-full lg:w-[90%] p-1 rounded bg-transparent" name="commentary" id="message" maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
@@ -92,7 +92,7 @@ input:focus, textarea:focus{
 }
 
 label{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 3px;
 }
 
@@ -100,10 +100,6 @@ label{
   border-radius: 30px;
   width: 400px;
   height: 400px;
-}
-
-.champ {
-  width: 600px;
 }
 
 @media only screen and (max-width: 1000px) {

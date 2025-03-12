@@ -1,10 +1,10 @@
 <template>
-  <div class="container-column w-[70vw] self-center flex flex-col col-span-2">
-    <div class="w-full items-center ml-20 grid grid-cols-2">
-      <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[30vw] xl:w-[30vw] bg-neutral-700 text-orange-200 lg:justify-evenly p-3 rounded-lg mb-20"
+  <div class="container-column w-[42vw] ml-auto mr-auto self-center flex flex-col col-span-2">
+    <div class="w-full items-center grid grid-cols-2">
+      <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[20vw] xl:w-[20vw] bg-neutral-700 text-orange-200 lg:justify-evenly p-3 rounded-lg mb-20"
            v-for="(repo, id) in repos" :key="id">
         <div class="col-span-2 h-full flex align-center w-auto rounded-2xl">
-          <img class="object-center h-max w-auto" src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub Repo">
+          <img class="object-center w-20" src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub Repo">
         </div>
         <div class="flex w-full text-base justify-start flex-col col-span-1 lg:justify-evenly p-2">
           <h3 class="font-bold">{{ repo.name }}</h3>
