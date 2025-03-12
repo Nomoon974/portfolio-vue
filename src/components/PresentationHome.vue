@@ -133,7 +133,7 @@ export default {
 }
 
 .text-pres{
-  padding: 40px 40px 0 0;
+  padding: 40px 0 0 40px;
   grid-area: c;
   width: 100%;
   max-width: 1010px;
