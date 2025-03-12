@@ -1,23 +1,23 @@
 <template>
   <div class="w-[90vw]">
-    <h2 id="formations" class="text text-4xl lg:text-7xl w-full pl-4 pr-4 pb-8 text-center lg:text-left">Formation & Postes</h2>
+    <h2 id="formations" class="text text-4xl lg:text-7xl w-full pl-4 pr-4 pb-8 text-center lg:text-left ">Formation & Postes</h2>
     <div class="training-container">
       <div class="experience-section">
         <div class="experience-item">
-          <p class="experience-period">Septembre 2022 - Aout 2024</p>
-          <h3 class="experience-title">Développeur Full Stack</h3>
-          <p class="experience-institute">IT-Akademy Lyon</p>
+          <p class="experience-period text-orange-100">Septembre 2022 - Aout 2024</p>
+          <h3 class="experience-title text-orange-200">Développeur Full Stack</h3>
+          <p class="experience-institute text-orange-100">IT-Akademy Lyon</p>
         </div>
         <div class="experience-item">
-          <p class="experience-period">Octobre 2021 - Septembre 2022</p>
-          <h3 class="experience-title">Développeur Web et Web Mobile</h3>
-          <p class="experience-institute">CCI Formation Lyon</p>
+          <p class="experience-period text-orange-100">Octobre 2021 - Septembre 2022</p>
+          <h3 class="experience-title text-orange-200">Développeur Web et Web Mobile</h3>
+          <p class="experience-institute text-orange-100">CCI Formation Lyon</p>
         </div>
       </div><div class="experience-section">
         <div class="experience-item">
-          <p class="experience-period">Septembre 2022 - Octobre 2024</p>
-          <h3 class="experience-title">Développeur Full Stack</h3>
-          <p class="experience-institute">DATASOLUTION</p>
+          <p class="experience-period text-orange-100">Septembre 2022 - Octobre 2024</p>
+          <h3 class="experience-title text-orange-200">Développeur Full Stack</h3>
+          <p class="experience-institute text-orange-100">DATASOLUTION</p>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ export default {
 .training-container {
   width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .experience-section {
@@ -69,20 +69,17 @@ export default {
 .experience-period {
   font-weight: bold;
   font-size: 1.2em;
-  color: #ccc;
 }
 
 .experience-title {
   font-size: 1.5em;
   font-weight: bold;
   margin: 10px 0;
-  color: #fff;
 }
 
 .experience-institute {
   font-size: 1.1em;
   font-style: italic;
-  color: #aaa;
   margin-bottom: 20px;
 }
 

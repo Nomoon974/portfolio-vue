@@ -1,6 +1,6 @@
 <template>
 <div class="footer-contain">
-  <h2 class="copyr">Copyright {{ currentYear }} Mazeau Lucas</h2>
+  <h2 class="copyr text-orange-200">Copyright {{ currentYear }} Mazeau Lucas</h2>
 </div>
 </template>
 
@@ -24,13 +24,12 @@ export default {
   flex-direction: column;
   background-size: contain;
   height: 25vh;
-  /*background-color: #2c3e50;*/
   width: 100vw;
+  font-family: "Poppins", sans-serif;
 }
 
 a,h2.copyr{
   background-color: rgba(44, 62, 80, 0);
-  color: white;
   font-size: small;
 }
 

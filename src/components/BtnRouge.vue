@@ -28,6 +28,7 @@ export default {
   transition: ease-in-out 500ms;
   font-size: 0.8rem;
   line-height: normal;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn_submit:hover {

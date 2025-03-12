@@ -8,31 +8,31 @@
           <div class="">
           <label class="" for="name"></label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="name" type="text" placeholder="Nom"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="name" type="text" placeholder="Nom"/>
         </div>
         <div class="champ">
           <div>
           <label for="surname"></label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="tel" type="text" placeholder="Prénom"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="tel" type="text" placeholder="Prénom"/>
         </div>
         <div class="champ">
           <div>
           <label for="tel"></label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="tel" type="tel" placeholder="Tel"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="tel" type="tel" placeholder="Tel"/>
         </div>
         <div class="champ">
           <div>
           <label for="mail"></label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="mail" type="email" placeholder="Email"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="mail" type="email" placeholder="Email"/>
         </div>
         <div>
           <label for="commentary"></label>
         </div>
         <div>
-          <textarea class="w-full lg:w-[900px] p-1 rounded" name="commentary" id="message" placeholder="Votre message..." maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
+          <textarea class="w-full lg:w-[900px] p-1 rounded bg-neutral-600" name="commentary" id="message" placeholder="Votre message..." maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
@@ -71,6 +71,7 @@ export default {
 
 #contact-form input,textarea{
   color: #252525;
+  font-family: "Poppins", sans-serif;
 }
 
 .grid{

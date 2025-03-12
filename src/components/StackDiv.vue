@@ -1,8 +1,8 @@
 <template>
   <div class="stack-div-container">
     <div class="stacks-card p-2 flex-col flex justify-center w-full">
-      <div id="c" class="test flex flex-col w-[80%] p-2 ml-auto mr-auto" v-for="stack in STACKS" :key="stack.id">
-        <div class="stack-line flex over bg-white h-auto rounded-xl mb-2 mt-2 h-max">
+      <div id="c" class="test flex flex-col lg:max-w-[60%] w-[80%] p-2 ml-auto mr-auto" v-for="stack in STACKS" :key="stack.id">
+        <div class="stack-line flex over bg-neutral-700 text-orange-200 border-neutral-700 h-auto rounded-xl mb-2 mt-2 h-max">
           <div class="logo-stack">
             <img class="p-2 mt-2 w-14 h-14 lg:p-5 lg:w-32 lg:h-32" :src="imgUrl(stack.logoPath)"
                  alt="stack.logoPath"></div>
@@ -19,7 +19,6 @@
             </div>
           </div>
         </div>
-        <img class="w-3 m-2 flex self-center" src="@/assets/img/dot-w.png" alt="">
       </div>
     </div>
   </div>
@@ -69,6 +68,7 @@ export default {
 .stack-div-container {
   width: 80%;
   gap: 50px;
+  font-family: "Poppins", sans-serif;
 }
 
 .stacks-card {
@@ -86,7 +86,6 @@ export default {
 .stack-line {
   display: grid;
   flex-direction: column;
-  border: white 0.1px solid;
 
   grid-template-areas:
   "logo title"

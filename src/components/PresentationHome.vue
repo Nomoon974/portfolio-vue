@@ -20,7 +20,7 @@
   </div>
   <div class="text-pres">
     <h2 id="myself" class="text text-lg lg:text-xl font-bold w-full pr-4 pb-4 text-center lg:text-left">A PROPOS DE MOI</h2>
-    <p class="text-lg">"Après une reconversion professionnelle, j'ai entamé ma première formation en développement web en 2021, où j'ai acquis des bases solides en programmation. Cependant, mon envie d'aller plus loin m'a conduit à poursuivre sur une formation de développeur full stack en alternance chez Datasolution, où j'ai pu renforcer mes compétences et les appliquer sur des projets concrets. Aujourd'hui, je suis prêt à mettre en œuvre tout ce savoir-faire au sein d'une équipe dynamique, pour relever de nouveaux défis technologiques et continuer d'évoluer en tant que développeur."</p>
+    <p class="">"Après une reconversion professionnelle, j'ai entamé ma première formation en développement web en 2021, où j'ai acquis des bases solides en programmation. Cependant, mon envie d'aller plus loin m'a conduit à poursuivre sur une formation de développeur full stack en alternance, où j'ai pu renforcer mes compétences et les appliquer sur des projets concrets. Aujourd'hui, je suis prêt à mettre en œuvre tout ce savoir-faire au sein d'une équipe dynamique, pour relever de nouveaux défis technologiques et continuer d'évoluer en tant que développeur."</p>
   </div>
 </div>
 </template>
@@ -109,7 +109,8 @@ export default {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-size: 2em;
+  font-size: 1.1em;
+  font-family: "Poppins", sans-serif;
   height: 100%;
   width: 100%;
 
@@ -124,25 +125,26 @@ export default {
 }
 
 .bloc_pers > h2,h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .bloc_pers img {
-  width: 45px;
+  width: 25px;
 }
 
 .text-pres{
   padding: 40px 40px 40px 40px;
   grid-area: c;
-  font-weight: 400;
   width: 100%;
   max-width: 1010px;
+  font-family: "Poppins", arial;
 }
 
 p{
   text-align: justify;
   font-size: 25px;
-  line-height: 1.9rem;
+  line-height: 2.5rem;
+  font-weight: thin;
 }
 
 #div-btn_red{
