@@ -142,9 +142,9 @@ export default {
 
 p{
   text-align: justify;
-  font-size: 20px;
-  line-height: 2.5rem;
-  font-weight: thin;
+  font-size: 18px;
+  line-height: 2rem;
+  font-weight: normal;
 }
 
 #div-btn_red{

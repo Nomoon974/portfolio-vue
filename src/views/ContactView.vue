@@ -1,6 +1,6 @@
 <template>
   <div class="w-[70vw] flex flex-col justify-center">
-  <h2 id="contact" class="text text-4xl lg:text-7xl w-full pl-4 pr-4 pb-8 text-center lg:text-left justify-center">Contactez-moi</h2>
+  <h2 id="contact" class="text text-3xl lg:text-5xl w-full pl-4 pr-4 pb-8 text-center lg:text-left justify-center">Contactez-moi</h2>
   <div class="w-max h-full pl-4 pr-4 items-stretch mr-auto ml-auto">
     <contact-compo />
   </div>

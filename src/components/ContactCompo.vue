@@ -6,33 +6,33 @@
       <form action="">
         <div class="champ">
           <div class="">
-          <label class="" for="name"></label>
+          <label class="" for="name">Nom</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="name" type="text" placeholder="Nom"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="name" type="text"/>
         </div>
         <div class="champ">
           <div>
-          <label for="surname"></label>
+          <label for="surname">Prenom</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="tel" type="text" placeholder="Prénom"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="tel" type="text"/>
         </div>
         <div class="champ">
           <div>
-          <label for="tel"></label>
+          <label for="tel">Telephone</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="tel" type="tel" placeholder="Tel"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="tel" type="tel"/>
         </div>
         <div class="champ">
           <div>
-          <label for="mail"></label>
+          <label for="mail">Email</label>
           </div>
-          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-neutral-600" name="mail" type="email" placeholder="Email"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6 bg-transparent" name="mail" type="email"/>
         </div>
         <div>
-          <label for="commentary"></label>
+          <label for="commentary">Message</label>
         </div>
         <div>
-          <textarea class="w-full lg:w-[900px] p-1 rounded bg-neutral-600" name="commentary" id="message" placeholder="Votre message..." maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
+          <textarea class="w-full lg:w-[900px] p-1 rounded bg-transparent" name="commentary" id="message" maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
@@ -76,6 +76,15 @@ export default {
 
 .grid{
   opacity: 0;
+}
+
+label {
+  font-size: 0.9rem !important;
+}
+
+input, textarea {
+  border: 1px solid rgb(82 82 82 / 1) !important;
+  color: white !important;
 }
 
 input:focus, textarea:focus{

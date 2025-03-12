@@ -1,6 +1,6 @@
 <template>
   <div class="w-[90vw]">
-    <h2 id="formations" class="text text-4xl lg:text-7xl w-full pl-4 pr-4 pb-8 text-center lg:text-left ">Formation & Postes</h2>
+    <h2 id="formations" class="text text-3xl lg:text-5xl w-full pl-4 pr-4 pb-8 text-center lg:text-left ">Formation & Postes</h2>
     <div class="training-container">
       <div class="experience-section">
         <div class="experience-item">
@@ -55,7 +55,7 @@ export default {
 }
 
 .training-container {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -68,11 +68,11 @@ export default {
 
 .experience-period {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .experience-title {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   margin: 10px 0;
 }
