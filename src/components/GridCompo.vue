@@ -1,7 +1,7 @@
 <template>
   <div class="container-column w-[42vw] ml-auto mr-auto self-center flex flex-col col-span-2">
-    <div class="w-full items-center grid grid-cols-2">
-      <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[20vw] xl:w-[20vw] bg-neutral-700 text-orange-200 lg:justify-evenly p-3 rounded-lg mb-20"
+    <div class="w-[inherit] items-center grid grid-cols-2">
+      <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[20vw] bg-neutral-700 text-orange-200 lg:justify-evenly p-3 rounded-lg mb-20"
            v-for="(repo, id) in repos" :key="id">
         <div class="col-span-2 h-full flex align-center w-auto rounded-2xl">
           <img class="object-center w-20" src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub Repo">

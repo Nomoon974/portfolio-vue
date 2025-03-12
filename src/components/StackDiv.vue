@@ -1,7 +1,7 @@
 <template>
   <div class="stack-div-container">
     <div class="stacks-card p-2 flex-col flex justify-center w-full">
-      <div id="c" class="test flex flex-col lg:max-w-[100%] w-[100%] p-2 ml-auto mr-auto" v-for="stack in STACKS" :key="stack.id">
+      <div id="c" class="test flex flex-col lg:min-w-[80%] w-min p-2 ml-auto mr-auto" v-for="stack in STACKS" :key="stack.id">
         <div class="stack-line flex over bg-neutral-700 text-orange-200 border-neutral-700 h-auto rounded-xl mb-2 mt-2 h-max">
           <div class="logo-stack">
             <img class="p-2 mt-2 w-14 h-14 lg:p-5 lg:w-32 lg:h-32" :src="imgUrl(stack.logoPath)"
