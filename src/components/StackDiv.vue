@@ -1,12 +1,12 @@
 <template>
   <div class="stack-div-container">
     <div class="stacks-card p-2 flex-col flex justify-center w-full">
-      <div id="c" class="test flex flex-col p-2" v-for="stack in STACKS" :key="stack.id">
+      <div id="c" class="test flex flex-col w-[80%] p-2 ml-auto mr-auto" v-for="stack in STACKS" :key="stack.id">
         <div class="stack-line flex over bg-white h-auto rounded-xl mb-2 mt-2 h-max">
           <div class="logo-stack">
             <img class="p-2 mt-2 w-14 h-14 lg:p-5 lg:w-32 lg:h-32" :src="imgUrl(stack.logoPath)"
                  alt="stack.logoPath"></div>
-          <div class="stack-title pb-2">
+          <div class="stack-title pb-2 ml-5">
             <div class="flex flex-col w-max text-center">
               <div class="pt-2 flex align-middle h-8 mb-2">
                 <h3 class="font-bold align-middle min-h-full">{{ stack.stackName }}</h3>

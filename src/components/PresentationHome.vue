@@ -5,7 +5,7 @@
   </div>
   <div class="bloc_pers">
       <h1 class="auteur">Mazeau Lucas</h1>
-      <h3 class="stack">Développeur Full Stack Junior</h3>
+      <h3 class="stack">Développeur Web</h3>
       <ul>
         <li class="soc_media_list din"><a href="https://www.linkedin.com/in/lucas-mazeau"><img src="@/assets/icon/linkedin.png" alt="linkedin"></a></li>
         <li class="soc_media_list hub"><a href="https://github.com/Nomoon974?tab=repositories"><img src="@/assets/icon/github.png" alt="github"></a></li>
@@ -20,7 +20,7 @@
   </div>
   <div class="text-pres">
     <h2 id="myself" class="text text-lg lg:text-xl font-bold w-full pr-4 pb-4 text-center lg:text-left">A PROPOS DE MOI</h2>
-    <p class="text-lg">"Après une reconversion professionnelle, j'ai entamé ma première formation en développement web en 2022, où j'ai acquis des bases solides en programmation. Cependant, mon envie d'aller plus loin m'a conduit à poursuivre sur une formation de développeur full stack en alternance chez Datasolution, où j'ai pu renforcer mes compétences et les appliquer sur des projets concrets. Aujourd'hui, je suis prêt à mettre en œuvre tout ce savoir-faire au sein d'une équipe dynamique, pour relever de nouveaux défis technologiques et continuer d'évoluer en tant que développeur."</p>
+    <p class="text-lg">"Après une reconversion professionnelle, j'ai entamé ma première formation en développement web en 2021, où j'ai acquis des bases solides en programmation. Cependant, mon envie d'aller plus loin m'a conduit à poursuivre sur une formation de développeur full stack en alternance chez Datasolution, où j'ai pu renforcer mes compétences et les appliquer sur des projets concrets. Aujourd'hui, je suis prêt à mettre en œuvre tout ce savoir-faire au sein d'une équipe dynamique, pour relever de nouveaux défis technologiques et continuer d'évoluer en tant que développeur."</p>
   </div>
 </div>
 </template>

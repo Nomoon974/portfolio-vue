@@ -8,25 +8,25 @@
           <div class="">
           <label class="" for="name"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="name" type="text" placeholder="Nom"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="name" type="text" placeholder="Nom"/>
         </div>
         <div class="champ">
           <div>
           <label for="surname"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="tel" type="text" placeholder="Prénom"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="tel" type="text" placeholder="Prénom"/>
         </div>
         <div class="champ">
           <div>
           <label for="tel"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="tel" type="tel" placeholder="Tel"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="tel" type="tel" placeholder="Tel"/>
         </div>
         <div class="champ">
           <div>
           <label for="mail"></label>
           </div>
-          <input class="w-full lg:w-[700px] h-8 p-1 rounded mb-6" name="mail" type="email" placeholder="Email"/>
+          <input class="w-full lg:w-[900px] h-8 p-1 rounded mb-6" name="mail" type="email" placeholder="Email"/>
         </div>
         <div>
           <label for="commentary"></label>
@@ -90,6 +90,10 @@ label{
   border-radius: 30px;
   width: 400px;
   height: 400px;
+}
+
+.champ {
+  width: 600px;
 }
 
 @media only screen and (max-width: 1000px) {
