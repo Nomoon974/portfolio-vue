@@ -8,31 +8,31 @@
           <div class="">
           <label class="" for="name">Nom</label>
           </div>
-          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="name" type="text"/>
+          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="name" type="text"/>
         </div>
         <div class="champ">
           <div>
           <label for="surname">Prenom</label>
           </div>
-          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="text"/>
+          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="text"/>
         </div>
         <div class="champ">
           <div>
           <label for="tel">Telephone</label>
           </div>
-          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="tel"/>
+          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="tel"/>
         </div>
         <div class="champ">
           <div>
           <label for="mail">Email</label>
           </div>
-          <input class="w-full lg:w-[90%] h-8 p-1 rounded mb-4 bg-transparent" name="mail" type="email"/>
+          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="mail" type="email"/>
         </div>
         <div>
           <label for="commentary">Message</label>
         </div>
         <div>
-          <textarea class="w-full lg:w-[90%] p-1 rounded bg-transparent" name="commentary" id="message" maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
+          <textarea class="w-full lg:w-full p-1 rounded bg-transparent" name="commentary" id="message" maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
         </div>
         <div class="flex justify-end">
           <btn-rouge
