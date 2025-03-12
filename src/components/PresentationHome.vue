@@ -142,7 +142,7 @@ export default {
 
 p{
   text-align: justify;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 2.5rem;
   font-weight: thin;
 }

@@ -13,7 +13,7 @@
               </div>
             </div>
             <div v-for="(item, idx) in stack.content" class="hello h-auto w-auto" :key="idx">
-              <p class="font-thin text-left pl-2 h-auto text-base">
+              <p class="font-normal text-left pl-2 h-auto text-base">
                 {{ item }}
               </p>
             </div>
@@ -69,6 +69,7 @@ export default {
   width: 80%;
   gap: 50px;
   font-family: "Poppins", sans-serif;
+
 }
 
 .stacks-card {
