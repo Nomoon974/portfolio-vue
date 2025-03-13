@@ -1,6 +1,6 @@
 <template>
   <div class="w-[70vw]">
-    <h2 id="formations" class="text text-3xl lg:text-5xl w-ml-20 pl-4 pr-4 pb-8 text-center lg:text-left ">Formation & Postes</h2>
+    <h2 id="formations" class="text text-3xl lg:text-5xl w-max pl-4 pr-4 pb-8 text-center lg:text-left ">Formation & Postes</h2>
     <div class="training-container">
       <div class="experience-section">
         <div class="experience-item">
