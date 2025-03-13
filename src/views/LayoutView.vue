@@ -49,13 +49,13 @@ export default {
   display: grid;
   grid-template-areas: "y z";
   grid-template-rows: max-content;
-  grid-template-columns: 1fr 85%;
+  grid-template-columns: 1fr 90%;
 }
 
 .component-layout {
   min-height: max-content;
   margin: auto;
-  width: 75%;
+  width: 100%;
 }
 
 .navb{
@@ -67,7 +67,10 @@ export default {
 
 .view-list {
   grid-area: z;
-  width: 70vw;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1000px) {

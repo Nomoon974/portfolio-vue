@@ -90,7 +90,7 @@ export default {
   grid-template-rows: max-content max-content;
   width: 100%;
   height: 100vh;
-  padding: 20px 0px 0px 50px;
+  padding: 20px 0px 0px 0px;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -133,9 +133,9 @@ export default {
 }
 
 .text-pres{
-  padding: 40px 0 0 40px;
+  padding: 40px 0 0 0;
   grid-area: c;
-  width: 100%;
+  width: 70%;
   max-width: 1010px;
   font-family: "Poppins", arial;
 }
