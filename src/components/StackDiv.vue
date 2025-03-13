@@ -1,12 +1,12 @@
 <template>
   <div class="stack-div-container">
-    <div class="stacks-card p-2 flex-col flex justify-center w-full">
-      <div id="c" class="test flex flex-col lg:min-w-[80%] w-min p-2 ml-auto mr-auto" v-for="stack in STACKS" :key="stack.id">
-        <div class="stack-line flex over bg-neutral-700 text-orange-200 border-neutral-700 h-auto rounded-xl mb-2 mt-2 h-max">
+    <div class="stacks-card p-2 grid grid-cols-3 space-x-6 justify-center">
+      <div id="c" class="test flex flex-col justify-center items-center lg:min-w-[70%] m-0 w-min p-2" v-for="stack in STACKS" :key="stack.id">
+        <div class="stack-line text-xs flex over bg-neutral-700 justify-self-center text-orange-200 border-neutral-700 w-[26vw] rounded-xl mb-2 mt-2 h-[24vh] max-w-[25vw] max-h-[24vh]">
           <div class="logo-stack">
-            <img class="p-2 mt-2 w-14 h-14 lg:p-5 lg:w-32 lg:h-32" :src="imgUrl(stack.logoPath)"
+            <img class="p-2 mt-2 w-10 h-10 lg:p-2 lg:w-20 lg:h-20" :src="imgUrl(stack.logoPath)"
                  alt="stack.logoPath"></div>
-          <div class="stack-title pb-2 ml-5">
+          <div class="stack-title pb-2 pt-2">
             <div class="flex flex-col w-max text-center">
               <div class="pt-2 flex align-middle h-8 mb-2">
                 <h3 class="font-bold align-middle min-h-full">{{ stack.stackName }}</h3>
@@ -66,14 +66,14 @@ export default {
 
 <style scoped>
 .stack-div-container {
-  width: 80%;
-  gap: 50px;
+  width: max-content;
+  gap: 10px;
   font-family: "Poppins", sans-serif;
-
 }
 
 .stacks-card {
-  width: 100%;
+  width: 80vw;
+  gap: 20px;
 }
 
 .test:last-of-type .w-8 {
@@ -82,6 +82,7 @@ export default {
 
 #c {
   opacity: 0;
+  margin: 0 !important;
 }
 
 .stack-line {
