@@ -1,7 +1,7 @@
 <template>
   <div id="competence_container" class="w-[90vw] mb-20">
     <h2 id="competences" class="text text-3xl lg:text-5xl w-full pl-4 pr-4 pb-8 text-center lg:text-left ">Compétences</h2>
-    <div class="flex lg:pl-8 lg:pr-8 justify-center">
+    <div class="flex lg:pl-8 lg:pr-8">
       <stack-div />
     </div>
   </div>
