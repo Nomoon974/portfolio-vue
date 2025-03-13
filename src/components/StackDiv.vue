@@ -74,6 +74,8 @@ export default {
 .stacks-card {
   width: 80vw;
   gap: 20px;
+  position: relative;
+  transform: translateX(-10%);
 }
 
 .test:last-of-type .w-8 {
