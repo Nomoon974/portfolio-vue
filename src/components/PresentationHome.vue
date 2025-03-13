@@ -88,12 +88,13 @@ export default {
     "b c";
   grid-template-columns: 1fr 1.2fr;
   grid-template-rows: max-content max-content;
-  width: 100%;
+  width: 70%;
   height: 100vh;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0 0 0;
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin: auto;
 }
 
 .bloc-du-haut{
