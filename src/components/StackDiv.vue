@@ -74,7 +74,7 @@ export default {
     "content content";
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
-  gap: 1rem;
+  gap: 10px;
 }
 
 .test {
