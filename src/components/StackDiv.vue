@@ -79,7 +79,7 @@ export default {
 
 .test {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .stacks-card {
