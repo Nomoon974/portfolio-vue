@@ -1,21 +1,17 @@
 <template>
   <div class="stack-div-container">
-    <div class="stacks-card p-4 grid grid-cols-3 space-x-6 justify-center">
-      <div id="c" class="test flex justify-start flex-col lg:min-w-[70%] m-0 w-min p-2" v-for="stack in STACKS" :key="stack.id">
-        <div class="stack-line text-xs flex over bg-neutral-700 justify-self-center text-orange-200 border-neutral-700 w-[26vw] rounded-xl mb-2 mt-2 h-[28vh] w-full max-w-full max-h-max">
+    <div class="stacks-card p-4 grid grid-cols-3">
+      <div id="c" class="test" v-for="stack in STACKS" :key="stack.id">
+        <div class="stack-line">
           <div class="logo-stack">
-            <img class="p-2 mt-2 w-10 h-10 lg:p-2 lg:w-20 lg:h-20" :src="imgUrl(stack.logoPath)"
-                 alt="stack.logoPath"></div>
-          <div class="stack-title pb-4 pt-4 pr-4">
-            <div class="flex flex-col w-max text-center">
-              <div class="pt-2 flex align-middle h-8 mb-2">
-                <h3 class="font-bold align-middle min-h-full">{{ stack.stackName }}</h3>
-              </div>
+            <img class="w-10 h-10 lg:w-20 lg:h-20" :src="imgUrl(stack.logoPath)" :alt="stack.logoPath">
+            <div class="stack-title">
+              <h3 class="font-bold">{{ stack.stackName }}</h3>
             </div>
-            <div v-for="(item, idx) in stack.content" class="hello h-auto w-auto" :key="idx">
-              <p class="font-normal text-left pl-2 h-auto text-base">
-                {{ item }}
-              </p>
+          </div>
+          <div class="content-wrapper">
+            <div v-for="(item, idx) in stack.content" :key="idx" class="hello">
+              <p class="item-text">{{ item }}</p>
             </div>
           </div>
         </div>
@@ -65,97 +61,82 @@ export default {
 </script>
 
 <style scoped>
-.stack-div-container {
-  width: max-content;
-  gap: 10px;
-  font-family: "Poppins", sans-serif;
+.stack-line {
+  display: grid;
+  width: 20vw;
+  min-height: 35vh;
+  background: #404040;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  grid-template-areas:
+    "logo title"
+    "content content";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
 }
 
 .stacks-card {
-  width: 65vw;
-  gap: 10px;
-  position: relative;
-  transform: translateX(-10%);
-}
-
-.test:last-of-type .w-8 {
-  display: none;
-}
-
-#c {
-  opacity: 0;
-  margin: 0 !important;
-  font-size: 0.8rem !important;
-}
-
-.stack-line {
-  display: grid;
-  flex-direction: column;
-
-  grid-template-areas:
-  "logo title"
-  "logo parag";
-  grid-template-columns: max-content 1fr;
+  width: 80vw;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .logo-stack {
   grid-area: logo;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .stack-title {
   grid-area: title;
+  display: flex;
+  align-items: center;
+}
+
+.content-wrapper {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: inherit;
 }
 
 .hello {
-  grid-area: parag;
+  width: 100%;
 }
 
-.stacks-card {
-  color: #252525;
+.item-text {
+  color: #ffe4c4;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  margin: 0;
+  line-height: 1.4;
+  text-align: left;
 }
 
-.star-icon {
-  margin-right: 2px;
-  /* Vous pouvez ajuster la taille des étoiles ici */
-}
-
-/* Styles pour les petits écrans */
 @media only screen and (max-width: 1000px) {
-  .stack-div-container {
-    width: 100vw;
-  }
-
   .stack-line {
-    display: grid;
-    flex-direction: column;
-    border: white 0.1px solid;
-
+    width: 100%;
     grid-template-areas:
-  "logo title"
-  "parag parag";
-    grid-template-rows: max-content 1fr;
-    grid-template-columns: 1fr;
-  }
-
-  .logo-stack {
-    grid-area: logo;
-  }
-
-  .stack-title {
-    grid-area: title;
-  }
-
-  .hello {
-    grid-area: parag;
+      "logo title"
+      "content content";
   }
 
   .stacks-card {
-    width: 100vw;
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
-
-  .font-normal {
-    overflow-wrap: break-word;
-    max-width: 100vw;
+  
+  .content-wrapper {
+    padding: 0 0.5rem;
   }
 }
 </style>
