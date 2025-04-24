@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-form" class="grid lg:grid-cols-2 gap-10 basis-0 w-full justify-center text-left">
+  <div id="contact-form" class="grid lg:grid-cols-2 gap-10 basis-0 w-[80%] justify-center text-left">
     <div class="w-full h-full flex justify-center items-center"><img class="contact-img" src="@/assets/img/contact.png" alt=""></div>
     <div class="about w-full h-full flex items-center justify-center flex-col">
     <div class="div-form w-full lg:w-full flex flex-wrap self-center justify-center text-left pl-3 pr-2">
