@@ -49,7 +49,7 @@ export default {
   display: grid;
   grid-template-areas: "y z";
   grid-template-rows: max-content;
-  grid-template-columns: 1fr 90%;
+  grid-template-columns: 8% 1fr;
 }
 
 .component-layout {
