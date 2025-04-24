@@ -1,12 +1,12 @@
 <template>
   <div class="stack-div-container">
-    <div class="stacks-card p-2 grid grid-cols-3 space-x-6 justify-center">
+    <div class="stacks-card p-4 grid grid-cols-3 space-x-6 justify-center">
       <div id="c" class="test flex justify-start flex-col lg:min-w-[70%] m-0 w-min p-2" v-for="stack in STACKS" :key="stack.id">
-        <div class="stack-line text-xs flex over bg-neutral-700 justify-self-center text-orange-200 border-neutral-700 w-[26vw] rounded-xl mb-2 mt-2 h-[28vh] max-w-[26vw] max-h-[28vh]">
+        <div class="stack-line text-xs flex over bg-neutral-700 justify-self-center text-orange-200 border-neutral-700 w-[26vw] rounded-xl mb-2 mt-2 h-[28vh] w-full max-w-full max-h-max">
           <div class="logo-stack">
             <img class="p-2 mt-2 w-10 h-10 lg:p-2 lg:w-20 lg:h-20" :src="imgUrl(stack.logoPath)"
                  alt="stack.logoPath"></div>
-          <div class="stack-title pb-2 pt-2">
+          <div class="stack-title pb-4 pt-4 pr-4">
             <div class="flex flex-col w-max text-center">
               <div class="pt-2 flex align-middle h-8 mb-2">
                 <h3 class="font-bold align-middle min-h-full">{{ stack.stackName }}</h3>
@@ -72,8 +72,8 @@ export default {
 }
 
 .stacks-card {
-  width: 80vw;
-  gap: 20px;
+  width: 65vw;
+  gap: 10px;
   position: relative;
   transform: translateX(-10%);
 }
