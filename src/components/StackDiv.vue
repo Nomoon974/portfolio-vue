@@ -83,7 +83,6 @@ export default {
 }
 
 .stacks-card {
-  width: 60vw;
   max-width: 80vw;
   margin: 0 auto;
   display: flex;
