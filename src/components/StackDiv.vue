@@ -88,6 +88,7 @@ export default {
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .logo-stack {
