@@ -63,8 +63,8 @@ export default {
 <style scoped>
 .stack-line {
   display: grid;
-  width: 20vw;
-  min-height: 35vh;
+  width: 350px;
+  height: 400px;
   background: #404040;
   border-radius: 0.75rem;
   padding: 1rem;
