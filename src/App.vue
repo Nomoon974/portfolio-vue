@@ -115,6 +115,22 @@ body{
   height: 100%;
 }
 
+.text {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  left: -200px;
+  opacity: 0;
+  cursor: default;
+  font-size: 1.875rem;
+  width: max-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
 </style>
 
 

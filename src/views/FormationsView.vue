@@ -1,7 +1,6 @@
 <template>
-  <div class="w-full">
-    <h2 id="formations" class="text text-3xl lg:text-5xl w-max pl-4 pr-4 pb-8 text-center lg:text-left ">Formation & Postes</h2>
     <div class="training-container">
+      <h2 id="formations" class="text text-3xl lg:text-5xl pl-4 pr-4 pb-8 ">Formation & Postes</h2>
       <div class="experience-section">
         <div class="experience-item">
           <p class="experience-period text-orange-100">Septembre 2022 - Aout 2024</p>
@@ -20,7 +19,7 @@
           <p class="experience-institute text-orange-100">DATASOLUTION</p>
         </div>
       </div>
-    </div>
+    
   </div>
 </template>
 
@@ -55,10 +54,16 @@ export default {
 }
 
 .training-container {
-  width: max-content;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
-  margin: auto;
+  flex-direction: column;
+}
+
+.training-container h2 {
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .experience-section {

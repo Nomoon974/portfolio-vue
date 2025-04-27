@@ -41,22 +41,6 @@ export default {
   justify-content: center;
 }
 
-.text {
-  font-family: 'Unica One', cursive;
-  text-transform: uppercase;
-  font-weight: 600;
-  cursor: default;
-  position: relative;
-  left: -200px;
-  opacity: 0;
-  font-size: 1.875rem;
-  width: max-content;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
 .wrapper {
   width: max-content;
   height: 100%;

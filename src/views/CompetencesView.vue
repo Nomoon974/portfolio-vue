@@ -1,6 +1,6 @@
 <template>
   <div id="competence_container" class="w-full mb-20 flex align-center justify-center flex-col">
-    <h2 id="competences" class="text text-3xl lg:text-5xl w-max pl-4 pr-4 pb-8 text-center lg:text-left ">Compétences</h2>
+    <h2 id="competences" class="text text-3xl lg:text-5xl pl-4 pr-4 pb-8 ">Compétences</h2>
     <div class="flex justify-center lg:pl-8 lg:pr-8">
       <stack-div />
     </div>
