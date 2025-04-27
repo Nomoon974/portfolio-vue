@@ -1,110 +1,108 @@
 <template>
-  <div id="contact-form" class="grid lg:grid-cols-2 gap-10 basis-0 w-[60vw] justify-center text-left">
-    <div class="w-full h-full flex justify-center items-center"><img class="contact-img" src="@/assets/img/contact.png" alt=""></div>
-    <div class="about w-full h-full flex items-center justify-center flex-col">
-    <div class="div-form w-full lg:w-full flex flex-wrap self-center justify-center text-left pl-3 pr-2">
-      <form action="">
-        <div class="champ">
-          <div class="">
-          <label class="" for="name">Nom</label>
-          </div>
-          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="name" type="text"/>
-        </div>
-        <div class="champ">
-          <div>
-          <label for="surname">Prenom</label>
-          </div>
-          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="text"/>
-        </div>
-        <div class="champ">
-          <div>
-          <label for="tel">Telephone</label>
-          </div>
-          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="tel" type="tel"/>
-        </div>
-        <div class="champ">
-          <div>
-          <label for="mail">Email</label>
-          </div>
-          <input class="w-full lg:w-full h-8 p-1 rounded mb-4 bg-transparent" name="mail" type="email"/>
-        </div>
-        <div>
-          <label for="commentary">Message</label>
-        </div>
-        <div>
-          <textarea class="w-full lg:w-full p-1 rounded bg-transparent" name="commentary" id="message" maxlength="720" style="resize: none" cols="30" rows="10"></textarea>
-        </div>
-        <div class="flex justify-end">
-          <btn-rouge
-              name="envoyer"
-          />
-        </div>
-      </form>
+  <div id="contact-form" class="contact-container">
+    <div class="image-container">
+      <img class="contact-img" src="@/assets/img/contact.png" alt="Contact image">
     </div>
-    </div>
+    <div class="mail-container">
+    <a href="mailto:lucas-mazeau@hotmail.fr" class="mail-link">
+      <svg class="mail-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+        <title>envelope-filled</title>
+        <g fill="currentColor">
+          <path d="m10,9.905l7.937-3.527c-.301-1.909-1.944-3.378-3.937-3.378H6c-1.993,0-3.636,1.469-3.937,3.378l7.937,3.527Z" stroke-width="0"/>
+          <path d="m10.812,11.733c-.258.115-.535.172-.812.172s-.555-.057-.813-.172l-7.187-3.194v4.461c0,2.206,1.794,4,4,4h8c2.206,0,4-1.794,4-4v-4.461l-7.188,3.195Z" stroke-width="0"/>
+        </g>
+      </svg>
+      lucas-mazeau@hotmail.fr
+    </a>
+  </div>
   </div>
 </template>
 
 <script>
-import btnRouge from "@/components/BtnRouge";
-import {gsap, Power0} from "gsap";
-
 export default {
-  name: "ContactCompo.vue",
-  components: {
-    btnRouge,
-  },
+  name: "ContactCompo",
   mounted() {
-    this.fadeIN()
-  },
-  methods: {
-    fadeIN(){
-      let tl = gsap.timeline()
-      tl.to(".grid", {duration: 1, opacity: 1, ease: Power0.easeNone})
-      tl.play()
-    }
+    // Animation d'apparition si nécessaire
+    const container = document.querySelector('#contact-form');
+    container.style.opacity = 1;
   }
 }
 </script>
 
 <style scoped>
-
-#contact-form input,textarea{
-  color: #252525;
-  font-family: "Poppins", sans-serif;
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  width: 65vw;
+  margin: 0 auto;
+  padding: 2rem;
+  transition: opacity 0.5s ease;
 }
 
-.grid{
-  opacity: 0;
-}
-
-label {
-  font-size: 0.9rem !important;
-}
-
-input, textarea {
-  border: 1px solid rgb(82 82 82 / 1) !important;
-  color: white !important;
-}
-
-input:focus, textarea:focus{
-  outline-color: #eea342;
-}
-
-label{
-  font-size: 1.4rem;
-  margin-bottom: 3px;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-img {
   border-radius: 30px;
   width: 400px;
   height: 400px;
+  object-fit: cover;
+}
+
+.mail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  background: #404040;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom:  auto;
+  padding:6px;
+}
+
+.mail-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #ffe4c4;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.mail-link:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.mail-link:hover::before {
+  width: 100%;
+}
+
+.mail-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.mail-link:hover .mail-icon {
+  transform: translateY(-2px);
+  fill: #fff;
 }
 
 @media only screen and (max-width: 1000px) {
-  .div-form {
-    margin-top: 30px;
+  .contact-container {
+    grid-template-columns: 1fr;
+    width: 90vw;
   }
 
   .contact-img {
@@ -112,6 +110,8 @@ label{
     height: 300px;
   }
 
+  .mail-container {
+    margin-top: 1rem;
+  }
 }
-
 </style>
