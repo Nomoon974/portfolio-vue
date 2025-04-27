@@ -140,9 +140,11 @@ ul {
     flex-direction: row;
     height: 100%;
   }
+
+  ul a {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
 }
-
-
-
 
 </style>
