@@ -1,9 +1,9 @@
 <template>
-  <div class="w-[70vw]">
-    <h2 id="projets" class="text text-3xl lg:text-5xl w-max pl-4 pr-4 pb-8 text-center lg:text-left">projets</h2>
-  <div class="pt-8 w-max ml-auto mr-auto">
-    <grid-compo />
-  </div>
+  <div class="container">
+    <h2 id="projets" class="text">projets</h2>
+    <div class="grid-wrapper">
+      <grid-compo />
+    </div>
   </div>
 </template>
 
@@ -34,15 +34,37 @@ export default {
 </script>
 
 <style scoped>
-.text{
+.container {
+  width: 100%;
+}
+
+.text {
   font-family: 'Unica One', cursive;
   text-transform: uppercase;
   font-weight: 600;
-
   position: relative;
   left: -200px;
   opacity: 0;
   cursor: default;
+  font-size: 1.875rem;
+  width: max-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
+.grid-wrapper {
+  padding-top: 2rem;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: a1024px) {
+  .text {
+    font-size: 3rem;
+    text-align: left;
+  }
+}
 </style>

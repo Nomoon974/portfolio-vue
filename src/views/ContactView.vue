@@ -1,9 +1,9 @@
 <template>
-  <div class="w-[70vw] flex flex-col justify-center">
-  <h2 id="contact" class="text text-3xl lg:text-5xl w-max pl-4 pr-4 pb-8 text-center lg:text-left justify-center">Contactez-moi</h2>
-  <div class="w-max h-full pl-4 pr-4 items-stretch mr-auto ml-auto">
-    <contact-compo />
-  </div>
+  <div class="container">
+    <h2 id="contact" class="text">Contactez-moi</h2>
+    <div class="wrapper">
+      <contact-compo />
+    </div>
   </div>
 </template>
 
@@ -34,16 +34,43 @@ export default {
 </script>
 
 <style scoped>
-.text{
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
   font-family: 'Unica One', cursive;
   text-transform: uppercase;
   font-weight: 600;
   cursor: default;
-
   position: relative;
   left: -200px;
   opacity: 0;
+  font-size: 1.875rem;
+  width: max-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
+.wrapper {
+  width: max-content;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: stretch;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+@media (min-width: 1024px) {
+  .text {
+    font-size: 3rem;
+    text-align: left;
+  }
+}
 </style>
