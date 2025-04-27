@@ -201,7 +201,8 @@ p{
     width: 100%;
     height: 100%;
     padding: 0 10px 15px 10px;
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
   }
 
   .img-prof {
@@ -210,8 +211,13 @@ p{
   }
 
   .text-pres{
-    padding: 25px;
+    padding: 0;
     height: 100%;
+    width: 100%;
+  }
+
+  .text-pres p {
+    font-size: smaller;
   }
 
   .bloc_pers{
@@ -219,7 +225,13 @@ p{
     top: 150px;
     height: max-content;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
+
+  .bloc_pers > h2 {
+  font-size: 1.5rem;
+  text-align: start;
+}
 
   .bloc_pers ul {
     margin-top: 20px;

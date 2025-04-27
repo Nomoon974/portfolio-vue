@@ -84,4 +84,24 @@ export default {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .training-container {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .experience-period {
+  font-size: 1em;
+  }
+
+  .experience-title {
+  font-size: 1em;
+  }
+
+  .experience-institute {
+  font-size: 1em;
+  }
+
+}
+
 </style>

@@ -1,8 +1,12 @@
 <template>
-  <div id="contact-form" class="contact-container">
+  <div id="contact" class="contact-container">
     <div class="image-container">
       <img class="contact-img" src="@/assets/img/contact.png" alt="Contact image">
     </div>
+    <div class="plz-contact">
+      <div class="intro-mail">
+        <p>Intéressé par de nouvelles opportunités professionnelles, je reste disponible pour échanger. N'hésitez pas à me contacter :</p>
+      </div>
     <div class="mail-container">
     <a href="mailto:lucas-mazeau@hotmail.fr" class="mail-link">
       <svg class="mail-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
@@ -15,6 +19,8 @@
       lucas-mazeau@hotmail.fr
     </a>
   </div>
+    </div>
+    
   </div>
 </template>
 
@@ -51,6 +57,13 @@ export default {
   width: 400px;
   height: 400px;
   object-fit: cover;
+}
+
+.plz-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .mail-container {
@@ -102,16 +115,32 @@ export default {
 @media only screen and (max-width: 1000px) {
   .contact-container {
     grid-template-columns: 1fr;
-    width: 90vw;
+    width: 100%;
+    padding: 0;
   }
 
   .contact-img {
-    width: 300px;
+    width: 280px;
     height: 300px;
+  }
+
+  .intro-mail {
+    width: 90vw;
+  }
+
+  .intro-mail p {
+    font-size: smaller;
   }
 
   .mail-container {
     margin-top: 1rem;
+    width: 90vw;
+    padding: 0;
+  }
+
+  .mail-link {
+    font-size: 1rem;
+    padding: 0.5rem 0;
   }
 }
 </style>

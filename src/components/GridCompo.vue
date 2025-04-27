@@ -1,15 +1,15 @@
 <template>
-  <div class="container-column w-[42vw] ml-auto mr-auto self-center flex flex-col col-span-2">
-    <div class="w-[inherit] items-center grid grid-cols-2">
-      <div id="grille" class="overflow-auto items-center flex w-[85vw] lg:w-[20vw] bg-neutral-700 text-orange-200 lg:justify-evenly p-3 rounded-lg mb-20"
+  <div class="container-column">
+    <div class="grid-container">
+      <div id="grille" class="repo-card"
            v-for="(repo, id) in repos" :key="id">
-        <div class="col-span-2 h-full flex align-center w-auto rounded-2xl">
-          <img class="object-center w-20" src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub Repo">
+        <div class="image-container">
+          <img class="github-logo" src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub Repo">
         </div>
-        <div class="flex w-full text-base justify-start flex-col col-span-1 lg:justify-evenly p-2">
-          <h3 class="font-bold">{{ repo.name }}</h3>
-          <p>{{ repo.description || 'Aucune description disponible' }}</p>
-          <a :href="repo.html_url" target="_blank" class="text-blue-500 underline">Voir sur GitHub</a>
+        <div class="repo-content">
+          <h3 class="repo-title">{{ repo.name }}</h3>
+          <p class="repo-description">{{ repo.description || 'Aucune description disponible' }}</p>
+          <a :href="repo.html_url" target="_blank" class="repo-link">Voir sur GitHub</a>
         </div>
       </div>
     </div>
@@ -61,21 +61,92 @@ export default {
 </script>
 
 <style scoped>
-
 .container-column {
+  width: 42vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
   color: #252525;
 }
 
-.btn_red{
-  font-size: 1rem;
+.grid-container {
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
-
-#grille{
+.repo-card {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  background-color: #404040;
+  color: #ffe4c4;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+  overflow: auto;
   opacity: 1;
   position: relative;
   font-family: "Poppins", sans-serif;
 }
 
+.image-container {
+  grid-column: span 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: auto;
+  border-radius: 1rem;
+}
 
+.github-logo {
+  width: 5rem;
+  object-fit: center;
+}
+
+.repo-content {
+  display: flex;
+  width: 100%;
+  font-size: 1rem;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.repo-title {
+  font-weight: bold;
+}
+
+.repo-description {
+  margin: 0.5rem 0;
+}
+
+.repo-link {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-column {
+    width: 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .repo-card {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .repo-card {
+    width: 20vw;
+    justify-content: space-evenly;
+  }
+}
 </style>

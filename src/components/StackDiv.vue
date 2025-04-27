@@ -1,6 +1,6 @@
 <template>
   <div class="stack-div-container">
-    <div class="stacks-card p-4 grid grid-cols-3">
+    <div class="stacks-card">
       <div id="c" class="test" v-for="stack in STACKS" :key="stack.id">
         <div class="stack-line">
           <div class="logo-stack">
@@ -126,8 +126,13 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
+  .stack-div-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .stack-line {
-    width: 100%;
+    width: 100vw;
     grid-template-areas:
       "logo title"
       "content content";
@@ -135,7 +140,12 @@ export default {
 
   .stacks-card {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1rem;
+    flex-direction: column;
+    min-width: 80vw;
+    padding: 0;
+    max-width: 80%;
+    flex-wrap: nowrap;
   }
   
   .content-wrapper {
