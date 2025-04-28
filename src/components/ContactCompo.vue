@@ -84,7 +84,7 @@ export default {
   align-items: center;
   gap: 1rem;
   color: #ffe4c4;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   padding: 0.5rem 2rem;
   transition: all 0.3s ease;

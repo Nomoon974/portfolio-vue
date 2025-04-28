@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 Vue.use(VueRouter)
 
@@ -8,46 +7,27 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView,
-  },
-  {
-    path: '/contact',
-    name: 'contact',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ContactView.vue'),
-  },
-  {
-    path:'/projets',
-    name:'projets',
-    component: () => import('../views/ProjetsView.vue')
-  },
-  {
-    path:'/formations',
-    name:'formations',
-    component: () => import('../views/FormationsView.vue')
-  },
-  {
-    path:'/competences',
-    name:'competences',
-    component: () => import('../views/CompetencesView.vue')
-  },
+    component: () => import('../views/LayoutView.vue'),
+  }
 ]
 
 const router = new VueRouter({
-  mode:"history",
+  mode: 'hash',
+  base: process.env.BASE_URL,
   routes,
-  scrollBehavior(to, savePosition) {
+  scrollBehavior(to) {
     if (to.hash) {
-      return {
-        selector: to.hash,
-      }
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve({
+            selector: to.hash,
+            behavior: 'smooth',
+            offset: { x: 0, y: 0 }
+          })
+        }, 500)
+      })
     }
-    if (savePosition) {
-      return savePosition
-    }
-    return {x:0, y:200};
+    return { x: 0, y: 0 }
   }
 })
 

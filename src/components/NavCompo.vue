@@ -4,7 +4,7 @@
     <li v-for="(menu, idx) in menuLinks" :key="idx" class="pl-1 nav-list ">
       <router-link
           class="navLink"
-          :to="{name:menu.routeName, hash:menu.hash}"       >
+          :to="{path: '/', hash:menu.hash}"       >
         <font-awesome-icon class="ico-aws" :icon=menu.icon size="l"/>
       </router-link>
     </li>

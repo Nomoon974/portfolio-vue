@@ -4,15 +4,10 @@
       <nav-compo />
     </div>
     <div class="view-list">
-      <a href="#home"></a>
       <HomeView id="home" class="component-layout"></HomeView>
-      <a href="#formations"></a>
       <FormationsView id="formations" class="component-layout"></FormationsView>
-      <a href="#competences"></a>
       <CompetencesView id="competences" class="component-layout"></CompetencesView>
-      <a href="#projets"></a>
       <ProjetsViews id="projets" class="component-layout"></ProjetsViews>
-      <a href="#contact"></a>
       <ContactView id="contact" class="component-layout"></ContactView>
     </div>
   </div>
