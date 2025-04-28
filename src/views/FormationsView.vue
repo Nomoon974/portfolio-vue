@@ -98,6 +98,10 @@ export default {
     margin-bottom: 50px;
   }
 
+  .experience-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .experience-period {
   font-size: 1em;
   }
