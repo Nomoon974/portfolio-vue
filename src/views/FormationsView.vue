@@ -70,6 +70,9 @@ export default {
   font-family: Arial, sans-serif;
   color: #ddd;
   padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .experience-period {

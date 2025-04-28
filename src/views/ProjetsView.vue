@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="projet-container">
     <h2 id="projets" class="text text-3xl lg:text-5xl pl-4 pr-4 pb-8 ">projets</h2>
     <div class="grid-wrapper">
       <grid-compo />
@@ -34,15 +34,17 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.projet-container {
   width: 100%;
 }
 
 .grid-wrapper {
   padding-top: 2rem;
-  width: max-content;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  width: max-content;
 }
 
 @media only screen and (max-width: 1000px) {

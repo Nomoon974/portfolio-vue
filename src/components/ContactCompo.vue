@@ -40,7 +40,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
-  width: 65vw;
+  width: max-content;
   margin: 0 auto;
   padding: 2rem;
   transition: opacity 0.5s ease;

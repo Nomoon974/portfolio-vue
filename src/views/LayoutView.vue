@@ -3,6 +3,7 @@
     <div class="navb">
       <nav-compo />
     </div>
+    
     <div class="view-list">
       <HomeView id="home" class="component-layout"></HomeView>
       <FormationsView id="formations" class="component-layout"></FormationsView>

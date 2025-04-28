@@ -62,20 +62,23 @@ export default {
 
 <style scoped>
 .container-column {
-  width: 42vw;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   align-self: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   color: #252525;
 }
 
 .grid-container {
-  width: inherit;
+  width: max-content;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  gap: 15px;
+  align-self: center;
 }
 
 .repo-card {

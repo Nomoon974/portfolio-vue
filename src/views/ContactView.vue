@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="contact-container">
     <h2 id="contact" class="text">Contactez-moi</h2>
     <div class="wrapper">
       <contact-compo />
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.constact-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -49,6 +49,9 @@ export default {
   align-items: stretch;
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1024px) {
