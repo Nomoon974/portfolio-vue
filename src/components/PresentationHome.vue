@@ -201,8 +201,8 @@ p{
     width: 100%;
     height: 100%;
     padding: 0 10px 15px 10px;
-    margin-top: 30px;
-    margin-bottom: 150px;
+    margin-top: 10px;
+    margin-bottom: 200px;
   }
 
   .img-prof {
